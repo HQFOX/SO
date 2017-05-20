@@ -1,0 +1,3688 @@
+
+0 |
+1 |
+2 |
+3 |
+4 |
+5 |
+6 |
+7 |
+8 |
+9 | RUN |
+10 | RUN |
+11 | RUN |
+12 | BLOCKED |
+13 | BLOCKED |
+14 | BLOCKED |
+15 | RUN |
+16 | BLOCKED |
+17 | BLOCKED |
+18 | BLOCKED |
+19 | READY | RUN |
+20 | READY | RUN |
+21 | RUN | READY |
+22 | RUN | READY |
+23 | BLOCKED | RUN |
+24 | BLOCKED | RUN |
+25 | BLOCKED | RUN |
+26 | READY | RUN |
+27 | READY | RUN | READY |
+28 | READY | RUN | READY |
+29 | RUN | READY | READY |
+30 | RUN | READY | READY |
+31 | EXIT | READY | RUN |
+32 | EXIT | READY | RUN |
+33 | EXIT | READY | RUN |
+34 | EXIT | RUN | READY | READY |
+35 | EXIT | RUN | READY | READY |
+36 | EXIT | RUN | READY | READY |
+37 | EXIT | READY | READY | RUN |
+38 | EXIT | READY | READY | RUN |
+39 | EXIT | READY | READY | RUN |
+40 | EXIT | READY | RUN | READY |
+41 | EXIT | READY | RUN | READY |
+42 | EXIT | READY | RUN | READY |
+43 | EXIT | RUN | READY | READY |
+44 | EXIT | RUN | READY | READY |
+45 | EXIT | RUN | READY | READY |
+46 | EXIT | READY | READY | RUN |
+47 | EXIT | READY | RUN | BLOCKED |
+48 | EXIT | READY | RUN | BLOCKED |
+49 | EXIT | READY | RUN | BLOCKED |
+50 | EXIT | RUN | READY | READY |
+51 | EXIT | RUN | READY | READY |
+52 | EXIT | RUN | READY | READY |
+53 | EXIT | READY | RUN | READY |
+54 | EXIT | READY | RUN | READY |
+55 | EXIT | READY | RUN | READY |
+56 | EXIT | READY | READY | RUN | READY |
+57 | EXIT | RUN | READY | BLOCKED | READY |
+58 | EXIT | RUN | READY | BLOCKED | READY |
+59 | EXIT | RUN | READY | BLOCKED | READY |
+60 | EXIT | READY | READY | READY | RUN |
+61 | EXIT | READY | READY | READY | RUN |
+62 | EXIT | READY | READY | READY | RUN |
+63 | EXIT | READY | RUN | READY | READY |
+64 | EXIT | READY | RUN | READY | READY |
+65 | EXIT | READY | RUN | READY | READY |
+66 | EXIT | RUN | READY | READY | READY |
+67 | EXIT | RUN | READY | READY | READY |
+68 | EXIT | BLOCKED | READY | RUN | READY |
+69 | EXIT | BLOCKED | READY | RUN | READY |
+70 | EXIT | BLOCKED | READY | BLOCKED | RUN |
+71 | EXIT | READY | RUN | BLOCKED | BLOCKED |
+72 | EXIT | READY | RUN | BLOCKED | BLOCKED |
+73 | EXIT | READY | RUN | BLOCKED | BLOCKED |
+74 | EXIT | RUN | READY | BLOCKED | BLOCKED |
+75 | EXIT | RUN | READY | READY | BLOCKED |
+76 | EXIT | RUN | READY | READY | BLOCKED |
+77 | EXIT | READY | RUN | READY | BLOCKED |
+78 | EXIT | READY | RUN | READY | BLOCKED |
+79 | EXIT | READY | RUN | READY | READY |
+80 | EXIT | READY | READY | RUN | READY |
+81 | EXIT | READY | READY | RUN | READY |
+82 | EXIT | RUN | READY | EXIT | READY |
+83 | EXIT | RUN | READY | EXIT | READY |
+84 | EXIT | RUN | READY | EXIT | READY |
+0 |
+1 |
+2 |
+3 | RUN |
+4 | RUN |
+5 | RUN |
+6 | BLOCKED |
+7 | BLOCKED |
+8 | BLOCKED |
+9 | RUN |
+10 | BLOCKED |
+11 | BLOCKED |
+12 | BLOCKED |
+13 | RUN |
+14 | RUN | READY |
+15 | BLOCKED | RUN |
+16 | BLOCKED | RUN |
+17 | BLOCKED | RUN |
+18 | READY | RUN |
+19 | READY | RUN |
+20 | READY | RUN |
+21 | RUN | READY |
+22 | RUN | READY |
+23 | EXIT | RUN |
+24 | EXIT | RUN |
+25 | EXIT | RUN |
+26 | EXIT | RUN |
+27 | EXIT | RUN |
+28 | EXIT | RUN |
+29 | EXIT | RUN |
+30 | EXIT | RUN |
+31 | EXIT | RUN |
+32 | EXIT | RUN |
+33 | EXIT | RUN |
+34 | EXIT | RUN |
+35 | EXIT | RUN |
+36 | EXIT | RUN |
+37 | EXIT | RUN |
+38 | EXIT | RUN |
+39 | EXIT | RUN |
+40 | EXIT | BLOCKED |
+41 | EXIT | BLOCKED |
+42 | EXIT | BLOCKED |
+43 | EXIT | RUN |
+44 | EXIT | RUN |
+45 | EXIT | RUN |
+46 | EXIT | RUN |
+47 | EXIT | RUN |
+48 | EXIT | RUN |
+49 | EXIT | RUN |
+50 | EXIT | RUN |
+51 | EXIT | RUN |
+52 | EXIT | RUN |
+53 | EXIT | RUN |
+54 | EXIT | RUN |
+55 | EXIT | RUN |
+56 | EXIT | RUN |
+57 | EXIT | RUN |
+58 | EXIT | RUN |
+59 | EXIT | RUN |
+60 | EXIT | RUN |
+61 | EXIT | RUN |
+62 | EXIT | RUN |
+63 | EXIT | RUN |
+64 | EXIT | EXIT |
+65 | EXIT | EXIT |
+66 | EXIT | EXIT |
+67 | EXIT | EXIT |
+68 | EXIT | EXIT |
+69 | EXIT | EXIT |
+70 | EXIT | EXIT |
+71 | EXIT | EXIT |
+72 | EXIT | EXIT |
+73 | EXIT | EXIT |
+74 | EXIT | EXIT |
+75 | EXIT | EXIT |
+76 | EXIT | EXIT |
+77 | EXIT | EXIT |
+78 | EXIT | EXIT |
+79 | EXIT | EXIT |
+80 | EXIT | EXIT |
+81 | EXIT | EXIT |
+82 | EXIT | EXIT |
+83 | EXIT | EXIT |
+84 | EXIT | EXIT |
+85 | EXIT | EXIT |
+86 | EXIT | EXIT |
+87 | EXIT | EXIT |
+88 | EXIT | EXIT |
+89 | EXIT | EXIT |
+90 | EXIT | EXIT |
+91 | EXIT | EXIT |
+92 | EXIT | EXIT |
+93 | EXIT | EXIT |
+94 | EXIT | EXIT |
+95 | EXIT | EXIT |
+96 | EXIT | EXIT |
+97 | EXIT | EXIT |
+98 | EXIT | EXIT |
+99 | EXIT | EXIT |
+100 | EXIT | EXIT |
+101 | EXIT | EXIT |
+102 | EXIT | EXIT |
+103 | EXIT | EXIT |
+104 | EXIT | EXIT |
+105 | EXIT | EXIT |
+106 | EXIT | EXIT |
+107 | EXIT | EXIT |
+108 | EXIT | EXIT |
+109 | EXIT | EXIT |
+110 | EXIT | EXIT |
+111 | EXIT | EXIT |
+112 | EXIT | EXIT |
+113 | EXIT | EXIT |
+114 | EXIT | EXIT |
+115 | EXIT | EXIT |
+116 | EXIT | EXIT |
+117 | EXIT | EXIT |
+118 | EXIT | EXIT |
+119 | EXIT | EXIT |
+120 | EXIT | EXIT |
+121 | EXIT | EXIT |
+122 | EXIT | EXIT |
+123 | EXIT | EXIT |
+124 | EXIT | EXIT |
+125 | EXIT | EXIT |
+126 | EXIT | EXIT |
+127 | EXIT | EXIT |
+128 | EXIT | EXIT |
+129 | EXIT | EXIT |
+130 | EXIT | EXIT |
+131 | EXIT | EXIT |
+132 | EXIT | EXIT |
+133 | EXIT | EXIT |
+134 | EXIT | EXIT |
+135 | EXIT | EXIT |
+136 | EXIT | EXIT |
+137 | EXIT | EXIT |
+138 | EXIT | EXIT |
+139 | EXIT | EXIT |
+140 | EXIT | EXIT |
+141 | EXIT | EXIT |
+142 | EXIT | EXIT |
+143 | EXIT | EXIT |
+144 | EXIT | EXIT |
+145 | EXIT | EXIT |
+146 | EXIT | EXIT |
+147 | EXIT | EXIT |
+148 | EXIT | EXIT |
+149 | EXIT | EXIT |
+150 | EXIT | EXIT |
+151 | EXIT | EXIT |
+152 | EXIT | EXIT |
+153 | EXIT | EXIT |
+154 | EXIT | EXIT |
+155 | EXIT | EXIT |
+156 | EXIT | EXIT |
+157 | EXIT | EXIT |
+158 | EXIT | EXIT |
+159 | EXIT | EXIT |
+160 | EXIT | EXIT |
+161 | EXIT | EXIT |
+162 | EXIT | EXIT |
+163 | EXIT | EXIT |
+164 | EXIT | EXIT |
+165 | EXIT | EXIT |
+166 | EXIT | EXIT |
+167 | EXIT | EXIT |
+168 | EXIT | EXIT |
+169 | EXIT | EXIT |
+170 | EXIT | EXIT |
+171 | EXIT | EXIT |
+172 | EXIT | EXIT |
+173 | EXIT | EXIT |
+174 | EXIT | EXIT |
+175 | EXIT | EXIT |
+176 | EXIT | EXIT |
+177 | EXIT | EXIT |
+178 | EXIT | EXIT |
+179 | EXIT | EXIT |
+180 | EXIT | EXIT |
+181 | EXIT | EXIT |
+182 | EXIT | EXIT |
+183 | EXIT | EXIT |
+184 | EXIT | EXIT |
+185 | EXIT | EXIT |
+186 | EXIT | EXIT |
+187 | EXIT | EXIT |
+188 | EXIT | EXIT |
+189 | EXIT | EXIT |
+190 | EXIT | EXIT |
+191 | EXIT | EXIT |
+192 | EXIT | EXIT |
+193 | EXIT | EXIT |
+194 | EXIT | EXIT |
+195 | EXIT | EXIT |
+196 | EXIT | EXIT |
+197 | EXIT | EXIT |
+198 | EXIT | EXIT |
+199 | EXIT | EXIT |
+200 | EXIT | EXIT |
+201 | EXIT | EXIT |
+202 | EXIT | EXIT |
+203 | EXIT | EXIT |
+204 | EXIT | EXIT |
+205 | EXIT | EXIT |
+206 | EXIT | EXIT |
+207 | EXIT | EXIT |
+208 | EXIT | EXIT |
+209 | EXIT | EXIT |
+210 | EXIT | EXIT |
+211 | EXIT | EXIT |
+212 | EXIT | EXIT |
+213 | EXIT | EXIT |
+214 | EXIT | EXIT |
+215 | EXIT | EXIT |
+216 | EXIT | EXIT |
+217 | EXIT | EXIT |
+218 | EXIT | EXIT |
+219 | EXIT | EXIT |
+220 | EXIT | EXIT |
+221 | EXIT | EXIT |
+222 | EXIT | EXIT |
+223 | EXIT | EXIT |
+224 | EXIT | EXIT |
+225 | EXIT | EXIT |
+226 | EXIT | EXIT |
+227 | EXIT | EXIT |
+228 | EXIT | EXIT |
+229 | EXIT | EXIT |
+230 | EXIT | EXIT |
+231 | EXIT | EXIT |
+232 | EXIT | EXIT |
+233 | EXIT | EXIT |
+234 | EXIT | EXIT |
+235 | EXIT | EXIT |
+236 | EXIT | EXIT |
+237 | EXIT | EXIT |
+238 | EXIT | EXIT |
+239 | EXIT | EXIT |
+240 | EXIT | EXIT |
+241 | EXIT | EXIT |
+242 | EXIT | EXIT |
+243 | EXIT | EXIT |
+244 | EXIT | EXIT |
+245 | EXIT | EXIT |
+246 | EXIT | EXIT |
+247 | EXIT | EXIT |
+248 | EXIT | EXIT |
+249 | EXIT | EXIT |
+250 | EXIT | EXIT |
+251 | EXIT | EXIT |
+252 | EXIT | EXIT |
+253 | EXIT | EXIT |
+254 | EXIT | EXIT |
+255 | EXIT | EXIT |
+256 | EXIT | EXIT |
+257 | EXIT | EXIT |
+258 | EXIT | EXIT |
+259 | EXIT | EXIT |
+260 | EXIT | EXIT |
+261 | EXIT | EXIT |
+262 | EXIT | EXIT |
+263 | EXIT | EXIT |
+264 | EXIT | EXIT |
+265 | EXIT | EXIT |
+266 | EXIT | EXIT |
+267 | EXIT | EXIT |
+268 | EXIT | EXIT |
+269 | EXIT | EXIT |
+270 | EXIT | EXIT |
+271 | EXIT | EXIT |
+272 | EXIT | EXIT |
+273 | EXIT | EXIT |
+274 | EXIT | EXIT |
+275 | EXIT | EXIT |
+276 | EXIT | EXIT |
+277 | EXIT | EXIT |
+278 | EXIT | EXIT |
+279 | EXIT | EXIT |
+280 | EXIT | EXIT |
+281 | EXIT | EXIT |
+282 | EXIT | EXIT |
+283 | EXIT | EXIT |
+284 | EXIT | EXIT |
+285 | EXIT | EXIT |
+286 | EXIT | EXIT |
+287 | EXIT | EXIT |
+288 | EXIT | EXIT |
+289 | EXIT | EXIT |
+290 | EXIT | EXIT |
+291 | EXIT | EXIT |
+292 | EXIT | EXIT |
+293 | EXIT | EXIT |
+294 | EXIT | EXIT |
+295 | EXIT | EXIT |
+296 | EXIT | EXIT |
+297 | EXIT | EXIT |
+298 | EXIT | EXIT |
+299 | EXIT | EXIT |
+300 | EXIT | EXIT |
+301 | EXIT | EXIT |
+302 | EXIT | EXIT |
+303 | EXIT | EXIT |
+304 | EXIT | EXIT |
+305 | EXIT | EXIT |
+306 | EXIT | EXIT |
+307 | EXIT | EXIT |
+308 | EXIT | EXIT |
+309 | EXIT | EXIT |
+310 | EXIT | EXIT |
+311 | EXIT | EXIT |
+312 | EXIT | EXIT |
+313 | EXIT | EXIT |
+314 | EXIT | EXIT |
+315 | EXIT | EXIT |
+316 | EXIT | EXIT |
+317 | EXIT | EXIT |
+318 | EXIT | EXIT |
+319 | EXIT | EXIT |
+320 | EXIT | EXIT |
+321 | EXIT | EXIT |
+322 | EXIT | EXIT |
+323 | EXIT | EXIT |
+324 | EXIT | EXIT |
+325 | EXIT | EXIT |
+326 | EXIT | EXIT |
+327 | EXIT | EXIT |
+328 | EXIT | EXIT |
+329 | EXIT | EXIT |
+330 | EXIT | EXIT |
+331 | EXIT | EXIT |
+332 | EXIT | EXIT |
+333 | EXIT | EXIT |
+334 | EXIT | EXIT |
+335 | EXIT | EXIT |
+336 | EXIT | EXIT |
+337 | EXIT | EXIT |
+338 | EXIT | EXIT |
+339 | EXIT | EXIT |
+340 | EXIT | EXIT |
+341 | EXIT | EXIT |
+342 | EXIT | EXIT |
+343 | EXIT | EXIT |
+344 | EXIT | EXIT |
+345 | EXIT | EXIT |
+346 | EXIT | EXIT |
+347 | EXIT | EXIT |
+348 | EXIT | EXIT |
+349 | EXIT | EXIT |
+350 | EXIT | EXIT |
+351 | EXIT | EXIT |
+352 | EXIT | EXIT |
+353 | EXIT | EXIT |
+354 | EXIT | EXIT |
+355 | EXIT | EXIT |
+356 | EXIT | EXIT |
+357 | EXIT | EXIT |
+358 | EXIT | EXIT |
+359 | EXIT | EXIT |
+360 | EXIT | EXIT |
+361 | EXIT | EXIT |
+362 | EXIT | EXIT |
+363 | EXIT | EXIT |
+364 | EXIT | EXIT |
+365 | EXIT | EXIT |
+366 | EXIT | EXIT |
+367 | EXIT | EXIT |
+368 | EXIT | EXIT |
+369 | EXIT | EXIT |
+370 | EXIT | EXIT |
+371 | EXIT | EXIT |
+372 | EXIT | EXIT |
+373 | EXIT | EXIT |
+374 | EXIT | EXIT |
+375 | EXIT | EXIT |
+376 | EXIT | EXIT |
+377 | EXIT | EXIT |
+378 | EXIT | EXIT |
+379 | EXIT | EXIT |
+380 | EXIT | EXIT |
+381 | EXIT | EXIT |
+382 | EXIT | EXIT |
+383 | EXIT | EXIT |
+384 | EXIT | EXIT |
+385 | EXIT | EXIT |
+386 | EXIT | EXIT |
+387 | EXIT | EXIT |
+388 | EXIT | EXIT |
+389 | EXIT | EXIT |
+390 | EXIT | EXIT |
+391 | EXIT | EXIT |
+392 | EXIT | EXIT |
+393 | EXIT | EXIT |
+394 | EXIT | EXIT |
+395 | EXIT | EXIT |
+396 | EXIT | EXIT |
+397 | EXIT | EXIT |
+398 | EXIT | EXIT |
+399 | EXIT | EXIT |
+400 | EXIT | EXIT |
+401 | EXIT | EXIT |
+402 | EXIT | EXIT |
+403 | EXIT | EXIT |
+404 | EXIT | EXIT |
+405 | EXIT | EXIT |
+406 | EXIT | EXIT |
+407 | EXIT | EXIT |
+408 | EXIT | EXIT |
+409 | EXIT | EXIT |
+410 | EXIT | EXIT |
+411 | EXIT | EXIT |
+412 | EXIT | EXIT |
+413 | EXIT | EXIT |
+414 | EXIT | EXIT |
+415 | EXIT | EXIT |
+416 | EXIT | EXIT |
+417 | EXIT | EXIT |
+418 | EXIT | EXIT |
+419 | EXIT | EXIT |
+420 | EXIT | EXIT |
+421 | EXIT | EXIT |
+422 | EXIT | EXIT |
+423 | EXIT | EXIT |
+424 | EXIT | EXIT |
+425 | EXIT | EXIT |
+426 | EXIT | EXIT |
+427 | EXIT | EXIT |
+428 | EXIT | EXIT |
+429 | EXIT | EXIT |
+430 | EXIT | EXIT |
+431 | EXIT | EXIT |
+432 | EXIT | EXIT |
+433 | EXIT | EXIT |
+434 | EXIT | EXIT |
+435 | EXIT | EXIT |
+436 | EXIT | EXIT |
+437 | EXIT | EXIT |
+438 | EXIT | EXIT |
+439 | EXIT | EXIT |
+440 | EXIT | EXIT |
+441 | EXIT | EXIT |
+442 | EXIT | EXIT |
+443 | EXIT | EXIT |
+444 | EXIT | EXIT |
+445 | EXIT | EXIT |
+446 | EXIT | EXIT |
+447 | EXIT | EXIT |
+448 | EXIT | EXIT |
+449 | EXIT | EXIT |
+450 | EXIT | EXIT |
+451 | EXIT | EXIT |
+452 | EXIT | EXIT |
+453 | EXIT | EXIT |
+454 | EXIT | EXIT |
+455 | EXIT | EXIT |
+456 | EXIT | EXIT |
+457 | EXIT | EXIT |
+458 | EXIT | EXIT |
+459 | EXIT | EXIT |
+460 | EXIT | EXIT |
+461 | EXIT | EXIT |
+462 | EXIT | EXIT |
+463 | EXIT | EXIT |
+464 | EXIT | EXIT |
+465 | EXIT | EXIT |
+466 | EXIT | EXIT |
+467 | EXIT | EXIT |
+468 | EXIT | EXIT |
+469 | EXIT | EXIT |
+470 | EXIT | EXIT |
+471 | EXIT | EXIT |
+472 | EXIT | EXIT |
+473 | EXIT | EXIT |
+474 | EXIT | EXIT |
+475 | EXIT | EXIT |
+476 | EXIT | EXIT |
+477 | EXIT | EXIT |
+478 | EXIT | EXIT |
+479 | EXIT | EXIT |
+480 | EXIT | EXIT |
+481 | EXIT | EXIT |
+482 | EXIT | EXIT |
+483 | EXIT | EXIT |
+484 | EXIT | EXIT |
+485 | EXIT | EXIT |
+486 | EXIT | EXIT |
+487 | EXIT | EXIT |
+488 | EXIT | EXIT |
+489 | EXIT | EXIT |
+490 | EXIT | EXIT |
+491 | EXIT | EXIT |
+492 | EXIT | EXIT |
+493 | EXIT | EXIT |
+494 | EXIT | EXIT |
+495 | EXIT | EXIT |
+496 | EXIT | EXIT |
+497 | EXIT | EXIT |
+498 | EXIT | EXIT |
+499 | EXIT | EXIT |
+500 | EXIT | EXIT |
+501 | EXIT | EXIT |
+502 | EXIT | EXIT |
+503 | EXIT | EXIT |
+504 | EXIT | EXIT |
+505 | EXIT | EXIT |
+506 | EXIT | EXIT |
+507 | EXIT | EXIT |
+508 | EXIT | EXIT |
+509 | EXIT | EXIT |
+510 | EXIT | EXIT |
+511 | EXIT | EXIT |
+512 | EXIT | EXIT |
+513 | EXIT | EXIT |
+514 | EXIT | EXIT |
+515 | EXIT | EXIT |
+516 | EXIT | EXIT |
+517 | EXIT | EXIT |
+518 | EXIT | EXIT |
+519 | EXIT | EXIT |
+520 | EXIT | EXIT |
+521 | EXIT | EXIT |
+522 | EXIT | EXIT |
+523 | EXIT | EXIT |
+524 | EXIT | EXIT |
+525 | EXIT | EXIT |
+526 | EXIT | EXIT |
+527 | EXIT | EXIT |
+528 | EXIT | EXIT |
+529 | EXIT | EXIT |
+530 | EXIT | EXIT |
+531 | EXIT | EXIT |
+532 | EXIT | EXIT |
+533 | EXIT | EXIT |
+534 | EXIT | EXIT |
+535 | EXIT | EXIT |
+536 | EXIT | EXIT |
+537 | EXIT | EXIT |
+538 | EXIT | EXIT |
+539 | EXIT | EXIT |
+540 | EXIT | EXIT |
+541 | EXIT | EXIT |
+542 | EXIT | EXIT |
+543 | EXIT | EXIT |
+544 | EXIT | EXIT |
+545 | EXIT | EXIT |
+546 | EXIT | EXIT |
+547 | EXIT | EXIT |
+548 | EXIT | EXIT |
+549 | EXIT | EXIT |
+550 | EXIT | EXIT |
+551 | EXIT | EXIT |
+552 | EXIT | EXIT |
+553 | EXIT | EXIT |
+554 | EXIT | EXIT |
+555 | EXIT | EXIT |
+556 | EXIT | EXIT |
+557 | EXIT | EXIT |
+558 | EXIT | EXIT |
+559 | EXIT | EXIT |
+560 | EXIT | EXIT |
+561 | EXIT | EXIT |
+562 | EXIT | EXIT |
+563 | EXIT | EXIT |
+564 | EXIT | EXIT |
+565 | EXIT | EXIT |
+566 | EXIT | EXIT |
+567 | EXIT | EXIT |
+568 | EXIT | EXIT |
+569 | EXIT | EXIT |
+570 | EXIT | EXIT |
+571 | EXIT | EXIT |
+572 | EXIT | EXIT |
+573 | EXIT | EXIT |
+574 | EXIT | EXIT |
+575 | EXIT | EXIT |
+576 | EXIT | EXIT |
+577 | EXIT | EXIT |
+578 | EXIT | EXIT |
+579 | EXIT | EXIT |
+580 | EXIT | EXIT |
+581 | EXIT | EXIT |
+582 | EXIT | EXIT |
+583 | EXIT | EXIT |
+584 | EXIT | EXIT |
+585 | EXIT | EXIT |
+586 | EXIT | EXIT |
+587 | EXIT | EXIT |
+588 | EXIT | EXIT |
+589 | EXIT | EXIT |
+590 | EXIT | EXIT |
+591 | EXIT | EXIT |
+592 | EXIT | EXIT |
+593 | EXIT | EXIT |
+0 |
+1 |
+2 |
+3 |
+4 |
+5 |
+6 |
+7 | RUN |
+8 | RUN |
+9 | RUN |
+10 | RUN |
+11 | RUN |
+12 | EXIT |
+13 | EXIT |
+14 | EXIT |
+15 | EXIT |
+16 | EXIT |
+17 | EXIT |
+18 | EXIT |
+19 | EXIT |
+20 | EXIT |
+0 |
+1 |
+2 |
+3 |
+4 |
+5 |
+6 |
+7 |
+8 | RUN |
+9 | RUN |
+10 | RUN |
+11 | RUN |
+12 | RUN |
+13 | EXIT |
+14 | EXIT |
+15 | EXIT |
+16 | EXIT |
+17 | EXIT |
+18 | EXIT |
+19 | EXIT |
+20 | EXIT |
+21 | EXIT |
+22 | EXIT |
+23 | EXIT |
+24 | EXIT |
+25 | EXIT |
+26 | EXIT |
+0 |
+1 |
+2 |
+3 |
+4 |
+5 | RUN |
+6 | RUN |
+7 | RUN |
+8 | RUN |
+9 | RUN |
+10 | EXIT |
+11 | EXIT |
+12 | EXIT |
+13 | EXIT |
+14 | EXIT |
+15 | EXIT |
+16 | EXIT |
+17 | EXIT |
+18 | EXIT |
+19 | EXIT |
+20 | EXIT |
+0 |
+1 |
+2 |
+3 |
+4 |
+5 |
+6 | RUN |
+7 | RUN |
+8 | RUN |
+9 | RUN |
+10 | RUN |
+11 | EXIT |
+12 | EXIT |
+13 | EXIT |
+14 | EXIT |
+15 | EXIT |
+16 | EXIT |
+17 | EXIT |
+18 | EXIT |
+19 | EXIT |
+20 | EXIT |
+21 | EXIT |
+22 | EXIT |
+23 | EXIT |
+24 | EXIT |
+25 | EXIT |
+26 | EXIT |
+27 | EXIT |
+28 | EXIT |
+29 | EXIT |
+30 | EXIT |
+31 | EXIT |
+32 | EXIT |
+33 | EXIT |
+34 | EXIT |
+35 | EXIT |
+36 | EXIT |
+37 | EXIT |
+38 | EXIT |
+39 | EXIT |
+40 | EXIT |
+41 | EXIT |
+42 | EXIT |
+43 | EXIT |
+44 | EXIT |
+45 | EXIT |
+46 | EXIT |
+0 |
+1 |
+2 |
+3 |
+4 | RUN |
+5 | RUN |
+6 | RUN |
+7 | EXIT | RUN |
+8 | EXIT | RUN |
+9 | EXIT | EXIT |
+10 | EXIT | EXIT |
+11 | EXIT | EXIT |
+12 | EXIT | EXIT |
+13 | EXIT | EXIT |
+14 | EXIT | EXIT |
+15 | EXIT | EXIT |
+16 | EXIT | EXIT |
+17 | EXIT | EXIT |
+18 | EXIT | EXIT |
+19 | EXIT | EXIT |
+20 | EXIT | EXIT |
+21 | EXIT | EXIT |
+0 |
+1 |
+2 |
+3 |
+4 |
+5 |
+6 |
+7 |
+8 |
+9 |
+10 |
+11 |
+12 |
+13 |
+14 |
+15 |
+16 |
+17 |
+18 |
+19 |
+20 |
+21 |
+22 |
+23 |
+24 |
+25 |
+26 |
+27 |
+28 |
+29 |
+30 |
+31 |
+32 | RUN |
+33 | RUN |
+34 | RUN |
+0 |
+1 |
+2 |
+3 |
+4 |
+5 |
+6 | RUN |
+7 | RUN |
+8 | RUN |
+9 | EXIT | RUN |
+10 | EXIT | RUN |
+11 | EXIT | EXIT |
+12 | EXIT | EXIT |
+13 | EXIT | EXIT |
+14 | EXIT | EXIT |
+15 | EXIT | EXIT |
+16 | EXIT | EXIT |
+17 | EXIT | EXIT |
+18 | EXIT | EXIT |
+19 | EXIT | EXIT |
+20 | EXIT | EXIT |
+21 | EXIT | EXIT |
+22 | EXIT | EXIT |
+23 | EXIT | EXIT |
+24 | EXIT | EXIT |
+25 | EXIT | EXIT |
+26 | EXIT | EXIT |
+27 | EXIT | EXIT |
+28 | EXIT | EXIT |
+29 | EXIT | EXIT |
+30 | EXIT | EXIT |
+31 | EXIT | EXIT |
+0 |
+1 |
+2 |
+3 |
+4 |
+5 | RUN |
+6 | RUN |
+7 | RUN |
+8 | RUN |
+9 | RUN |
+10 | RUN |
+11 | RUN |
+12 | RUN |
+13 | RUN |
+14 | RUN |
+15 | RUN |
+16 | RUN |
+17 | RUN |
+18 | RUN |
+19 | RUN |
+20 | RUN |
+21 | RUN |
+22 | RUN |
+23 | RUN |
+24 | RUN |
+25 | RUN |
+26 | RUN |
+27 | RUN |
+28 | RUN |
+29 | RUN |
+30 | EXIT |
+31 | EXIT |
+32 | EXIT |
+33 | EXIT |
+34 | EXIT |
+35 | EXIT |
+36 | EXIT |
+37 | EXIT |
+0 |
+1 |
+2 |
+3 |
+4 |
+5 | RUN |
+6 | RUN |
+7 | RUN |
+8 | RUN |
+9 | RUN |
+10 | RUN |
+11 | RUN |
+12 | RUN |
+13 | RUN |
+14 | RUN |
+15 | RUN |
+16 | RUN |
+17 | EXIT |
+18 | EXIT |
+19 | EXIT |
+0 |
+1 |
+2 |
+3 |
+4 |
+5 |
+6 | RUN |
+7 | RUN |
+8 | RUN |
+9 | EXIT |
+10 | EXIT |
+11 | EXIT |
+12 | EXIT |
+13 | EXIT |
+14 | EXIT |
+15 | EXIT |
+16 | EXIT |
+17 | EXIT |
+18 | EXIT |
+19 | EXIT |
+20 | EXIT |
+21 | EXIT |
+22 | EXIT |
+23 | EXIT |
+0 |
+1 |
+2 |
+3 |
+4 |
+5 |
+6 |
+7 |
+8 |
+9 |
+10 | RUN |
+11 | RUN |
+12 | RUN |
+13 | EXIT |
+14 | EXIT |
+15 | EXIT |
+16 | EXIT |
+17 | EXIT |
+18 | EXIT |
+19 | EXIT |
+20 | EXIT |
+21 | EXIT |
+22 | EXIT |
+23 | EXIT |
+0 |
+1 |
+2 |
+3 | RUN |
+4 | RUN |
+5 | RUN |
+6 | RUN |
+7 | EXIT |
+8 | EXIT |
+9 | EXIT |
+10 | EXIT |
+11 | EXIT |
+12 | EXIT |
+13 | EXIT |
+14 | EXIT |
+15 | EXIT |
+16 | EXIT |
+0 |
+1 |
+2 |
+3 |
+4 |
+5 |
+6 |
+7 |
+8 | RUN |
+9 | RUN |
+10 | RUN |
+11 | RUN |
+12 | RUN |
+13 | RUN |
+14 | RUN |
+15 | RUN |
+16 | EXIT |
+17 | EXIT |
+18 | EXIT |
+19 | EXIT |
+20 | EXIT |
+21 | EXIT |
+22 | EXIT |
+23 | EXIT |
+24 | EXIT |
+25 | EXIT |
+26 | EXIT |
+27 | EXIT |
+28 | EXIT |
+29 | EXIT |
+0 |
+1 |
+2 |
+3 |
+4 | RUN |
+5 | RUN |
+0 |
+1 |
+2 |
+3 | RUN |
+4 | RUN |
+0 |
+1 |
+2 |
+3 |
+4 |
+5 |
+6 |
+7 |
+8 |
+9 |
+10 |
+11 |
+12 |
+13 |
+14 |
+15 |
+16 |
+17 |
+18 |
+19 |
+20 |
+21 |
+22 |
+23 |
+24 |
+25 |
+26 |
+27 | RUN |
+28 | RUN |
+0 |
+1 |
+2 |
+3 |
+4 | RUN |
+5 | RUN |
+6 | READY | RUN |
+7 | READY | RUN |
+8 | READY | RUN |
+9 | RUN | READY | READY |
+10 | RUN | READY | READY |
+11 | RUN | READY | READY |
+12 | READY | READY | RUN |
+13 | READY | READY | RUN |
+14 | READY | READY | RUN |
+15 | READY | RUN | READY | READY |
+16 | READY | RUN | READY | READY |
+17 | READY | RUN | READY | READY |
+18 | RUN | READY | READY | READY |
+19 | RUN | READY | READY | READY |
+0 |
+1 |
+2 |
+3 |
+4 |
+5 |
+6 |
+7 |
+8 | RUN |
+9 | RUN |
+10 | READY | RUN |
+11 | READY | RUN |
+12 | READY | RUN |
+13 | RUN | READY |
+14 | RUN | READY |
+15 | RUN | READY |
+16 | READY | RUN |
+17 | READY | RUN |
+18 | READY | RUN |
+19 | RUN | EXIT |
+20 | RUN | EXIT |
+21 | EXIT | EXIT |
+22 | EXIT | EXIT |
+23 | EXIT | EXIT |
+24 | EXIT | EXIT |
+25 | EXIT | EXIT |
+26 | EXIT | EXIT |
+27 | EXIT | EXIT |
+28 | EXIT | EXIT |
+29 | EXIT | EXIT |
+0 |
+1 |
+2 |
+3 |
+4 |
+5 |
+6 |
+7 | RUN | READY |
+8 | RUN | READY |
+9 | READY | RUN |
+10 | READY | RUN |
+11 | READY | RUN |
+12 | RUN | READY |
+13 | RUN | READY |
+14 | RUN | READY |
+15 | EXIT | RUN |
+16 | EXIT | RUN |
+17 | EXIT | RUN |
+18 | EXIT | EXIT |
+19 | EXIT | EXIT |
+20 | EXIT | EXIT |
+21 | EXIT | EXIT |
+22 | EXIT | EXIT |
+0 |
+1 |
+2 |
+3 |
+4 |
+5 | RUN |
+6 | RUN | READY |
+7 | READY | RUN |
+8 | READY | RUN |
+9 | READY | RUN |
+10 | RUN | READY |
+11 | RUN | READY |
+12 | RUN | READY |
+13 | READY | RUN |
+14 | READY | RUN |
+15 | READY | RUN |
+16 | RUN | EXIT |
+17 | EXIT | EXIT |
+18 | EXIT | EXIT |
+19 | EXIT | EXIT |
+20 | EXIT | EXIT |
+0 |
+1 |
+2 |
+3 |
+4 |
+5 | RUN |
+6 | RUN |
+7 | RUN |
+8 | RUN |
+9 | RUN |
+10 | RUN |
+11 | RUN |
+12 | RUN |
+13 | RUN |
+14 | RUN | READY |
+15 | RUN | READY |
+16 | READY | RUN |
+17 | READY | RUN |
+18 | READY | RUN |
+19 | RUN | READY |
+20 | RUN | READY |
+21 | RUN | READY |
+22 | READY | RUN |
+23 | READY | RUN |
+24 | READY | RUN |
+25 | RUN | READY |
+26 | RUN | READY |
+27 | RUN | READY |
+28 | READY | RUN |
+29 | READY | RUN |
+30 | READY | RUN |
+31 | RUN | READY |
+32 | RUN | READY |
+33 | RUN | READY |
+34 | READY | RUN |
+35 | READY | RUN |
+36 | READY | RUN |
+37 | RUN | READY |
+38 | RUN | READY |
+39 | BLOCKED | RUN |
+40 | BLOCKED | RUN |
+41 | BLOCKED | RUN |
+42 | READY | RUN |
+43 | READY | RUN |
+44 | READY | RUN |
+45 | RUN | READY |
+46 | RUN | READY |
+47 | RUN | READY |
+48 | READY | RUN |
+49 | READY | RUN |
+50 | READY | RUN |
+51 | RUN | READY |
+52 | RUN | READY |
+53 | RUN | READY |
+54 | READY | RUN |
+55 | READY | RUN |
+56 | RUN | BLOCKED |
+57 | RUN | BLOCKED |
+58 | RUN | BLOCKED |
+59 | RUN | READY |
+60 | RUN | READY |
+61 | RUN | READY |
+62 | READY | RUN |
+63 | READY | RUN |
+64 | READY | RUN |
+65 | RUN | READY |
+66 | RUN | READY |
+0 |
+1 |
+2 |
+3 |
+4 |
+5 |
+6 |
+7 | RUN |
+8 | RUN | READY |
+9 | READY | RUN |
+10 | READY | RUN |
+11 | READY | RUN |
+12 | RUN | READY |
+13 | RUN | READY | READY |
+14 | RUN | READY | READY |
+15 | READY | RUN | READY |
+16 | READY | RUN | READY |
+17 | READY | RUN | READY |
+18 | READY | EXIT | RUN |
+19 | READY | EXIT | RUN |
+20 | READY | EXIT | RUN | READY |
+21 | RUN | EXIT | READY | READY |
+22 | EXIT | EXIT | READY | RUN |
+23 | EXIT | EXIT | READY | RUN |
+24 | EXIT | EXIT | READY | RUN |
+25 | EXIT | EXIT | RUN | READY |
+26 | EXIT | EXIT | RUN | READY |
+27 | EXIT | EXIT | RUN | READY |
+28 | EXIT | EXIT | READY | RUN |
+29 | EXIT | EXIT | READY | RUN |
+30 | EXIT | EXIT | READY | RUN |
+31 | EXIT | EXIT | RUN | EXIT |
+32 | EXIT | EXIT | EXIT | EXIT |
+33 | EXIT | EXIT | EXIT | EXIT |
+34 | EXIT | EXIT | EXIT | EXIT |
+35 | EXIT | EXIT | EXIT | EXIT |
+36 | EXIT | EXIT | EXIT | EXIT |
+37 | EXIT | EXIT | EXIT | EXIT |
+38 | EXIT | EXIT | EXIT | EXIT |
+0 |
+1 |
+2 |
+3 |
+4 |
+5 |
+6 |
+7 | RUN |
+8 | RUN | READY |
+9 | READY | RUN | READY |
+10 | READY | RUN | READY |
+11 | READY | RUN | READY |
+12 | READY | READY | RUN |
+13 | READY | READY | RUN |
+14 | READY | READY | RUN | READY |
+15 | RUN | READY | READY | READY |
+16 | RUN | READY | READY | READY |
+17 | RUN | READY | READY | READY |
+18 | READY | RUN | READY | READY |
+19 | READY | RUN | READY | READY |
+20 | READY | RUN | READY | READY |
+21 | READY | EXIT | READY | RUN |
+22 | READY | EXIT | READY | RUN |
+23 | READY | EXIT | READY | RUN |
+24 | READY | EXIT | RUN | READY |
+25 | READY | EXIT | RUN | READY |
+26 | READY | EXIT | RUN | READY |
+27 | RUN | EXIT | READY | READY |
+28 | EXIT | EXIT | READY | RUN |
+29 | EXIT | EXIT | READY | RUN |
+30 | EXIT | EXIT | READY | RUN |
+31 | EXIT | EXIT | RUN | EXIT |
+32 | EXIT | EXIT | EXIT | EXIT |
+33 | EXIT | EXIT | EXIT | EXIT |
+34 | EXIT | EXIT | EXIT | EXIT |
+35 | EXIT | EXIT | EXIT | EXIT |
+36 | EXIT | EXIT | EXIT | EXIT |
+37 | EXIT | EXIT | EXIT | EXIT |
+38 | EXIT | EXIT | EXIT | EXIT |
+39 | EXIT | EXIT | EXIT | EXIT |
+40 | EXIT | EXIT | EXIT | EXIT |
+41 | EXIT | EXIT | EXIT | EXIT |
+42 | EXIT | EXIT | EXIT | EXIT |
+43 | EXIT | EXIT | EXIT | EXIT |
+44 | EXIT | EXIT | EXIT | EXIT |
+45 | EXIT | EXIT | EXIT | EXIT |
+46 | EXIT | EXIT | EXIT | EXIT |
+47 | EXIT | EXIT | EXIT | EXIT |
+0 |
+1 |
+2 |
+3 |
+4 | RUN |
+5 | RUN |
+6 | RUN |
+7 | RUN |
+8 | RUN |
+9 | READY | RUN |
+10 | READY | RUN |
+11 | READY | RUN |
+12 | RUN | READY |
+13 | EXIT | RUN |
+14 | EXIT | RUN |
+15 | EXIT | RUN |
+16 | EXIT | RUN |
+17 | EXIT | EXIT |
+18 | EXIT | EXIT |
+19 | EXIT | EXIT |
+20 | EXIT | EXIT |
+21 | EXIT | EXIT |
+22 | EXIT | EXIT |
+23 | EXIT | EXIT |
+24 | EXIT | EXIT |
+25 | EXIT | EXIT |
+26 | EXIT | EXIT |
+27 | EXIT | EXIT |
+28 | EXIT | EXIT |
+29 | EXIT | EXIT |
+30 | EXIT | EXIT |
+31 | EXIT | EXIT |
+32 | EXIT | EXIT |
+33 | EXIT | EXIT |
+34 | EXIT | EXIT |
+35 | EXIT | EXIT |
+36 | EXIT | EXIT |
+37 | EXIT | EXIT |
+38 | EXIT | EXIT |
+39 | EXIT | EXIT |
+40 | EXIT | EXIT |
+41 | EXIT | EXIT |
+42 | EXIT | EXIT |
+43 | EXIT | EXIT |
+44 | EXIT | EXIT |
+45 | EXIT | EXIT |
+46 | EXIT | EXIT |
+47 | EXIT | EXIT |
+48 | EXIT | EXIT |
+49 | EXIT | EXIT |
+50 | EXIT | EXIT |
+51 | EXIT | EXIT |
+52 | EXIT | EXIT |
+53 | EXIT | EXIT |
+54 | EXIT | EXIT |
+55 | EXIT | EXIT |
+56 | EXIT | EXIT |
+57 | EXIT | EXIT |
+58 | EXIT | EXIT |
+59 | EXIT | EXIT |
+60 | EXIT | EXIT |
+61 | EXIT | EXIT |
+62 | EXIT | EXIT |
+63 | EXIT | EXIT |
+64 | EXIT | EXIT |
+65 | EXIT | EXIT |
+66 | EXIT | EXIT |
+67 | EXIT | EXIT |
+68 | EXIT | EXIT |
+69 | EXIT | EXIT |
+70 | EXIT | EXIT |
+71 | EXIT | EXIT |
+72 | EXIT | EXIT |
+73 | EXIT | EXIT |
+74 | EXIT | EXIT |
+75 | EXIT | EXIT |
+76 | EXIT | EXIT |
+77 | EXIT | EXIT |
+78 | EXIT | EXIT |
+0 |
+1 |
+2 |
+3 |
+4 |
+5 | RUN |
+6 | RUN |
+7 | RUN |
+8 | RUN |
+9 | RUN |
+10 | RUN |
+11 | RUN |
+12 | RUN |
+13 | RUN |
+14 | RUN |
+15 | RUN |
+16 | RUN |
+17 | RUN |
+18 | RUN |
+19 | RUN |
+20 | RUN |
+21 | RUN |
+22 | RUN |
+23 | RUN |
+24 | RUN |
+25 | RUN |
+26 | RUN |
+27 | RUN |
+28 | RUN |
+29 | RUN |
+30 | RUN |
+31 | EXIT |
+32 | EXIT |
+33 | EXIT |
+34 | EXIT |
+35 | EXIT |
+0 |
+1 |
+2 |
+3 |
+4 |
+5 |
+6 |
+7 |
+8 | RUN |
+9 | RUN |
+10 | RUN |
+11 | RUN |
+12 | RUN |
+13 | RUN |
+14 | RUN |
+15 | RUN |
+16 | RUN |
+17 | RUN |
+18 | RUN |
+19 | RUN |
+20 | RUN |
+21 | RUN |
+22 | RUN |
+23 | RUN |
+24 | RUN |
+25 | RUN |
+26 | RUN |
+27 | RUN |
+28 | RUN |
+29 | RUN |
+30 | RUN |
+31 | RUN |
+32 | RUN |
+33 | RUN |
+34 | EXIT |
+35 | EXIT |
+36 | EXIT |
+37 | EXIT |
+38 | EXIT |
+39 | EXIT |
+40 | EXIT |
+0 |
+1 |
+2 |
+3 |
+4 | RUN |
+5 | RUN |
+6 | RUN |
+7 | RUN |
+8 | RUN |
+9 | RUN |
+10 | RUN |
+11 | RUN |
+12 | RUN |
+13 | RUN |
+14 | RUN |
+15 | RUN |
+16 | RUN |
+17 | RUN |
+18 | RUN |
+19 | RUN |
+20 | RUN |
+21 | RUN |
+22 | RUN |
+23 | RUN |
+24 | RUN |
+25 | RUN |
+26 | RUN |
+27 | RUN |
+28 | RUN |
+29 | RUN |
+30 | EXIT |
+31 | EXIT |
+32 | EXIT |
+33 | EXIT |
+34 | EXIT |
+35 | EXIT |
+36 | EXIT |
+37 | EXIT |
+38 | EXIT |
+39 | EXIT |
+40 | EXIT |
+41 | EXIT |
+42 | EXIT |
+43 | EXIT |
+44 | EXIT |
+0 |
+1 |
+2 |
+3 |
+4 | RUN |
+5 | RUN |
+6 | RUN |
+7 | RUN |
+8 | RUN |
+9 | RUN |
+10 | RUN |
+11 | RUN |
+12 | RUN |
+13 | RUN |
+14 | RUN |
+15 | RUN |
+16 | RUN |
+17 | RUN |
+18 | RUN |
+19 | RUN |
+20 | RUN |
+21 | RUN |
+22 | RUN |
+23 | RUN |
+24 | RUN |
+25 | RUN |
+26 | RUN |
+27 | EXIT |
+28 | EXIT |
+29 | EXIT |
+30 | EXIT |
+31 | EXIT |
+32 | EXIT |
+33 | EXIT |
+34 | EXIT |
+35 | EXIT |
+36 | EXIT |
+37 | EXIT |
+38 | EXIT |
+39 | EXIT |
+40 | EXIT |
+41 | EXIT |
+42 | EXIT |
+43 | EXIT |
+44 | EXIT |
+45 | EXIT |
+46 | EXIT |
+47 | EXIT |
+48 | EXIT |
+49 | EXIT |
+50 | EXIT |
+51 | EXIT |
+52 | EXIT |
+53 | EXIT |
+54 | EXIT |
+55 | EXIT |
+56 | EXIT |
+57 | EXIT |
+58 | EXIT |
+59 | EXIT |
+60 | EXIT |
+61 | EXIT |
+62 | EXIT |
+63 | EXIT |
+64 | EXIT |
+65 | EXIT |
+66 | EXIT |
+67 | EXIT |
+68 | EXIT |
+69 | EXIT |
+70 | EXIT |
+71 | EXIT |
+72 | EXIT |
+73 | EXIT |
+74 | EXIT |
+75 | EXIT |
+76 | EXIT |
+77 | EXIT |
+78 | EXIT |
+79 | EXIT |
+80 | EXIT |
+81 | EXIT |
+82 | EXIT |
+83 | EXIT |
+84 | EXIT |
+85 | EXIT |
+86 | EXIT |
+87 | EXIT |
+88 | EXIT |
+89 | EXIT |
+90 | EXIT |
+91 | EXIT |
+92 | EXIT |
+93 | EXIT |
+94 | EXIT |
+95 | EXIT |
+96 | EXIT |
+97 | EXIT |
+98 | EXIT |
+99 | EXIT |
+100 | EXIT |
+101 | EXIT |
+102 | EXIT |
+103 | EXIT |
+104 | EXIT |
+105 | EXIT |
+106 | EXIT |
+107 | EXIT |
+108 | EXIT |
+109 | EXIT |
+110 | EXIT |
+111 | EXIT |
+112 | EXIT |
+113 | EXIT |
+114 | EXIT |
+115 | EXIT |
+116 | EXIT |
+117 | EXIT |
+118 | EXIT |
+119 | EXIT |
+120 | EXIT |
+121 | EXIT |
+122 | EXIT |
+123 | EXIT |
+124 | EXIT |
+125 | EXIT |
+126 | EXIT |
+127 | EXIT |
+128 | EXIT |
+129 | EXIT |
+130 | EXIT |
+131 | EXIT |
+132 | EXIT |
+133 | EXIT |
+134 | EXIT |
+135 | EXIT |
+136 | EXIT |
+137 | EXIT |
+138 | EXIT |
+139 | EXIT |
+140 | EXIT |
+141 | EXIT |
+142 | EXIT |
+143 | EXIT |
+144 | EXIT |
+145 | EXIT |
+146 | EXIT |
+147 | EXIT |
+148 | EXIT |
+149 | EXIT |
+150 | EXIT |
+151 | EXIT |
+152 | EXIT |
+153 | EXIT |
+154 | EXIT |
+155 | EXIT |
+156 | EXIT |
+157 | EXIT |
+158 | EXIT |
+159 | EXIT |
+160 | EXIT |
+161 | EXIT |
+162 | EXIT |
+163 | EXIT |
+164 | EXIT |
+165 | EXIT |
+166 | EXIT |
+167 | EXIT |
+168 | EXIT |
+169 | EXIT |
+170 | EXIT |
+171 | EXIT |
+172 | EXIT |
+173 | EXIT |
+174 | EXIT |
+175 | EXIT |
+176 | EXIT |
+177 | EXIT |
+178 | EXIT |
+179 | EXIT |
+180 | EXIT |
+181 | EXIT |
+182 | EXIT |
+183 | EXIT |
+184 | EXIT |
+185 | EXIT |
+186 | EXIT |
+187 | EXIT |
+188 | EXIT |
+189 | EXIT |
+190 | EXIT |
+191 | EXIT |
+192 | EXIT |
+193 | EXIT |
+194 | EXIT |
+195 | EXIT |
+196 | EXIT |
+197 | EXIT |
+198 | EXIT |
+199 | EXIT |
+200 | EXIT |
+201 | EXIT |
+202 | EXIT |
+203 | EXIT |
+204 | EXIT |
+205 | EXIT |
+206 | EXIT |
+207 | EXIT |
+208 | EXIT |
+209 | EXIT |
+210 | EXIT |
+211 | EXIT |
+212 | EXIT |
+213 | EXIT |
+214 | EXIT |
+215 | EXIT |
+216 | EXIT |
+217 | EXIT |
+218 | EXIT |
+219 | EXIT |
+220 | EXIT |
+221 | EXIT |
+222 | EXIT |
+223 | EXIT |
+224 | EXIT |
+225 | EXIT |
+226 | EXIT |
+227 | EXIT |
+228 | EXIT |
+229 | EXIT |
+230 | EXIT |
+231 | EXIT |
+232 | EXIT |
+233 | EXIT |
+234 | EXIT |
+235 | EXIT |
+236 | EXIT |
+237 | EXIT |
+238 | EXIT |
+239 | EXIT |
+240 | EXIT |
+241 | EXIT |
+242 | EXIT |
+243 | EXIT |
+244 | EXIT |
+245 | EXIT |
+246 | EXIT |
+247 | EXIT |
+248 | EXIT |
+249 | EXIT |
+250 | EXIT |
+251 | EXIT |
+252 | EXIT |
+253 | EXIT |
+254 | EXIT |
+255 | EXIT |
+256 | EXIT |
+257 | EXIT |
+258 | EXIT |
+259 | EXIT |
+260 | EXIT |
+0 |
+1 |
+2 |
+3 |
+4 |
+5 |
+6 |
+7 | RUN |
+8 | RUN |
+9 | RUN |
+10 | RUN |
+11 | RUN | READY |
+12 | READY | RUN |
+13 | READY | RUN |
+14 | READY | RUN |
+15 | RUN | READY | READY |
+16 | RUN | READY | READY |
+17 | RUN | READY | READY |
+18 | READY | READY | RUN | READY |
+19 | READY | READY | RUN | READY |
+20 | READY | READY | RUN | READY |
+21 | READY | RUN | READY | READY |
+22 | READY | RUN | READY | READY |
+23 | READY | RUN | READY | READY |
+24 | READY | READY | READY | RUN |
+25 | READY | READY | READY | RUN |
+26 | READY | READY | READY | RUN |
+0 |
+1 |
+2 |
+3 |
+4 |
+5 |
+6 |
+7 |
+8 |
+9 |
+10 |
+11 |
+12 |
+13 |
+14 |
+15 |
+16 |
+0 |
+1 |
+2 |
+3 |
+4 |
+5 |
+6 |
+7 |
+8 |
+9 |
+10 |
+11 |
+12 |
+13 |
+14 |
+15 |
+16 |
+17 |
+18 |
+19 |
+20 |
+21 |
+22 |
+23 |
+24 |
+25 |
+26 |
+27 |
+28 |
+29 |
+30 |
+31 |
+32 |
+33 |
+34 |
+35 |
+36 |
+37 |
+38 |
+39 |
+40 |
+41 |
+42 |
+43 |
+44 |
+45 |
+46 |
+47 |
+48 |
+49 |
+50 |
+51 |
+52 |
+53 |
+54 |
+55 |
+56 |
+57 |
+58 |
+59 |
+60 |
+61 |
+62 |
+63 |
+64 |
+65 |
+66 |
+67 |
+68 |
+69 |
+70 |
+71 |
+72 |
+73 |
+74 |
+75 |
+76 |
+77 |
+78 |
+79 |
+80 |
+81 |
+82 |
+83 |
+84 |
+85 |
+86 |
+87 |
+88 |
+89 |
+90 |
+91 |
+92 |
+93 |
+94 |
+95 |
+96 |
+97 |
+98 |
+99 |
+100 |
+101 |
+102 |
+103 |
+104 |
+105 |
+106 |
+107 |
+108 |
+109 |
+110 |
+111 |
+112 |
+113 |
+114 |
+115 |
+116 |
+117 |
+118 |
+119 |
+120 |
+121 |
+122 |
+123 |
+124 |
+125 |
+126 |
+127 |
+128 |
+129 |
+130 |
+131 |
+132 |
+133 |
+134 |
+135 |
+136 |
+137 |
+138 |
+139 |
+140 |
+141 |
+142 |
+143 |
+144 |
+145 |
+146 |
+147 |
+148 |
+149 |
+150 | RUN |
+151 | RUN |
+152 | RUN |
+153 | RUN |
+154 | RUN |
+155 | RUN |
+156 | RUN |
+157 | RUN |
+158 | RUN |
+159 | RUN |
+160 | RUN |
+161 | RUN |
+162 | RUN |
+163 | RUN |
+164 | RUN |
+165 | RUN |
+166 | RUN |
+167 | RUN |
+168 | RUN |
+169 | RUN |
+170 | RUN |
+171 | RUN |
+172 | RUN |
+173 | EXIT |
+174 | EXIT |
+175 | EXIT |
+176 | EXIT |
+177 | EXIT |
+178 | EXIT |
+179 | EXIT |
+180 | EXIT |
+181 | EXIT |
+182 | EXIT |
+183 | EXIT |
+184 | EXIT |
+185 | EXIT |
+186 | EXIT |
+187 | EXIT |
+188 | EXIT |
+189 | EXIT |
+190 | EXIT |
+191 | EXIT |
+192 | EXIT |
+193 | EXIT |
+194 | EXIT |
+195 | EXIT |
+196 | EXIT |
+197 | EXIT |
+198 | EXIT |
+199 | EXIT |
+200 | EXIT |
+201 | EXIT |
+202 | EXIT |
+203 | EXIT |
+204 | EXIT |
+205 | EXIT |
+206 | EXIT |
+207 | EXIT |
+208 | EXIT |
+209 | EXIT |
+210 | EXIT |
+211 | EXIT |
+212 | EXIT |
+213 | EXIT |
+214 | EXIT |
+215 | EXIT |
+216 | EXIT |
+217 | EXIT |
+218 | EXIT |
+219 | EXIT |
+220 | EXIT |
+221 | EXIT |
+222 | EXIT |
+223 | EXIT |
+224 | EXIT |
+225 | EXIT |
+226 | EXIT |
+227 | EXIT |
+228 | EXIT |
+229 | EXIT |
+230 | EXIT |
+231 | EXIT |
+232 | EXIT |
+233 | EXIT |
+234 | EXIT |
+235 | EXIT |
+236 | EXIT |
+237 | EXIT |
+238 | EXIT |
+239 | EXIT |
+240 | EXIT |
+241 | EXIT |
+242 | EXIT |
+243 | EXIT |
+244 | EXIT |
+245 | EXIT |
+246 | EXIT |
+247 | EXIT |
+248 | EXIT |
+249 | EXIT |
+250 | EXIT |
+251 | EXIT |
+252 | EXIT |
+253 | EXIT |
+254 | EXIT |
+255 | EXIT |
+256 | EXIT |
+257 | EXIT |
+258 | EXIT |
+259 | EXIT |
+260 | EXIT |
+261 | EXIT |
+262 | EXIT |
+263 | EXIT |
+264 | EXIT |
+265 | EXIT |
+266 | EXIT |
+267 | EXIT |
+268 | EXIT |
+269 | EXIT |
+270 | EXIT |
+271 | EXIT |
+272 | EXIT |
+273 | EXIT |
+274 | EXIT |
+275 | EXIT |
+276 | EXIT |
+277 | EXIT |
+278 | EXIT |
+279 | EXIT |
+280 | EXIT |
+281 | EXIT |
+282 | EXIT |
+283 | EXIT |
+284 | EXIT |
+285 | EXIT |
+286 | EXIT |
+287 | EXIT |
+288 | EXIT |
+289 | EXIT |
+290 | EXIT |
+291 | EXIT |
+292 | EXIT |
+293 | EXIT |
+294 | EXIT |
+295 | EXIT |
+296 | EXIT |
+297 | EXIT |
+298 | EXIT |
+299 | EXIT |
+300 | EXIT |
+301 | EXIT |
+302 | EXIT |
+303 | EXIT |
+304 | EXIT |
+305 | EXIT |
+306 | EXIT |
+307 | EXIT |
+308 | EXIT |
+309 | EXIT |
+310 | EXIT |
+311 | EXIT |
+312 | EXIT |
+313 | EXIT |
+314 | EXIT |
+315 | EXIT |
+316 | EXIT |
+317 | EXIT |
+318 | EXIT |
+319 | EXIT |
+320 | EXIT |
+321 | EXIT |
+322 | EXIT |
+323 | EXIT |
+324 | EXIT |
+325 | EXIT |
+326 | EXIT |
+327 | EXIT |
+328 | EXIT |
+329 | EXIT |
+330 | EXIT |
+331 | EXIT |
+332 | EXIT |
+333 | EXIT |
+334 | EXIT |
+335 | EXIT |
+336 | EXIT |
+337 | EXIT |
+338 | EXIT |
+339 | EXIT |
+340 | EXIT |
+341 | EXIT |
+342 | EXIT |
+343 | EXIT |
+344 | EXIT |
+345 | EXIT |
+346 | EXIT |
+347 | EXIT |
+348 | EXIT |
+349 | EXIT |
+350 | EXIT |
+351 | EXIT |
+352 | EXIT |
+353 | EXIT |
+354 | EXIT |
+355 | EXIT |
+356 | EXIT |
+357 | EXIT |
+358 | EXIT |
+359 | EXIT |
+360 | EXIT |
+361 | EXIT |
+362 | EXIT |
+363 | EXIT |
+364 | EXIT |
+365 | EXIT |
+366 | EXIT |
+367 | EXIT |
+368 | EXIT |
+369 | EXIT |
+370 | EXIT |
+371 | EXIT |
+372 | EXIT |
+373 | EXIT |
+374 | EXIT |
+375 | EXIT |
+376 | EXIT |
+377 | EXIT |
+378 | EXIT |
+379 | EXIT |
+380 | EXIT |
+381 | EXIT |
+382 | EXIT |
+383 | EXIT |
+384 | EXIT |
+385 | EXIT |
+386 | EXIT |
+387 | EXIT |
+388 | EXIT |
+389 | EXIT |
+390 | EXIT |
+391 | EXIT |
+392 | EXIT |
+393 | EXIT |
+394 | EXIT |
+395 | EXIT |
+396 | EXIT |
+397 | EXIT |
+398 | EXIT |
+399 | EXIT |
+400 | EXIT |
+401 | EXIT |
+402 | EXIT |
+403 | EXIT |
+404 | EXIT |
+405 | EXIT |
+406 | EXIT |
+407 | EXIT |
+408 | EXIT |
+409 | EXIT |
+410 | EXIT |
+411 | EXIT |
+412 | EXIT |
+413 | EXIT |
+414 | EXIT |
+415 | EXIT |
+416 | EXIT |
+417 | EXIT |
+418 | EXIT |
+419 | EXIT |
+420 | EXIT |
+421 | EXIT |
+422 | EXIT |
+423 | EXIT |
+424 | EXIT |
+425 | EXIT |
+426 | EXIT |
+427 | EXIT |
+428 | EXIT |
+429 | EXIT |
+430 | EXIT |
+431 | EXIT |
+432 | EXIT |
+433 | EXIT |
+434 | EXIT |
+435 | EXIT |
+436 | EXIT |
+437 | EXIT |
+438 | EXIT |
+439 | EXIT |
+440 | EXIT |
+441 | EXIT |
+442 | EXIT |
+443 | EXIT |
+444 | EXIT |
+445 | EXIT |
+446 | EXIT |
+447 | EXIT |
+448 | EXIT |
+449 | EXIT |
+450 | EXIT |
+451 | EXIT |
+452 | EXIT |
+453 | EXIT |
+454 | EXIT |
+455 | EXIT |
+456 | EXIT |
+457 | EXIT |
+458 | EXIT |
+459 | EXIT |
+460 | EXIT |
+461 | EXIT |
+462 | EXIT |
+463 | EXIT |
+464 | EXIT |
+465 | EXIT |
+466 | EXIT |
+467 | EXIT |
+468 | EXIT |
+469 | EXIT |
+470 | EXIT |
+471 | EXIT |
+472 | EXIT |
+473 | EXIT |
+474 | EXIT |
+475 | EXIT |
+476 | EXIT |
+477 | EXIT |
+478 | EXIT |
+479 | EXIT |
+480 | EXIT |
+481 | EXIT |
+482 | EXIT |
+483 | EXIT |
+484 | EXIT |
+485 | EXIT |
+486 | EXIT |
+487 | EXIT |
+488 | EXIT |
+489 | EXIT |
+490 | EXIT |
+491 | EXIT |
+492 | EXIT |
+493 | EXIT |
+494 | EXIT |
+495 | EXIT |
+496 | EXIT |
+497 | EXIT |
+498 | EXIT |
+499 | EXIT |
+500 | EXIT |
+501 | EXIT |
+502 | EXIT |
+503 | EXIT |
+504 | EXIT |
+505 | EXIT |
+506 | EXIT |
+507 | EXIT |
+508 | EXIT |
+509 | EXIT |
+510 | EXIT |
+511 | EXIT |
+512 | EXIT |
+513 | EXIT |
+514 | EXIT |
+515 | EXIT |
+516 | EXIT |
+517 | EXIT |
+518 | EXIT |
+519 | EXIT |
+520 | EXIT |
+521 | EXIT |
+522 | EXIT |
+523 | EXIT |
+524 | EXIT |
+525 | EXIT |
+526 | EXIT |
+527 | EXIT |
+528 | EXIT |
+529 | EXIT |
+530 | EXIT |
+531 | EXIT |
+532 | EXIT |
+533 | EXIT |
+534 | EXIT |
+535 | EXIT |
+536 | EXIT |
+537 | EXIT |
+538 | EXIT |
+539 | EXIT |
+540 | EXIT |
+541 | EXIT |
+542 | EXIT |
+543 | EXIT |
+544 | EXIT |
+545 | EXIT |
+546 | EXIT |
+547 | EXIT |
+548 | EXIT |
+549 | EXIT |
+550 | EXIT |
+551 | EXIT |
+552 | EXIT |
+553 | EXIT |
+554 | EXIT |
+555 | EXIT |
+556 | EXIT |
+557 | EXIT |
+558 | EXIT |
+559 | EXIT |
+560 | EXIT |
+561 | EXIT |
+562 | EXIT |
+563 | EXIT |
+564 | EXIT |
+565 | EXIT |
+566 | EXIT |
+567 | EXIT |
+568 | EXIT |
+569 | EXIT |
+570 | EXIT |
+571 | EXIT |
+572 | EXIT |
+573 | EXIT |
+574 | EXIT |
+575 | EXIT |
+576 | EXIT |
+577 | EXIT |
+578 | EXIT |
+579 | EXIT |
+580 | EXIT |
+581 | EXIT |
+582 | EXIT |
+583 | EXIT |
+0 |
+1 |
+2 |
+3 |
+4 |
+5 |
+6 | RUN |
+7 | RUN |
+8 | RUN |
+9 | RUN |
+10 | RUN |
+11 | RUN |
+12 | RUN |
+13 | RUN |
+14 | RUN |
+15 | RUN |
+16 | RUN |
+0 |
+1 |
+2 |
+3 |
+4 |
+5 |
+6 |
+7 |
+8 |
+9 |
+10 |
+11 |
+12 |
+13 |
+14 |
+15 |
+16 |
+17 |
+18 |
+19 | RUN |
+20 | RUN |
+21 | RUN |
+22 | RUN |
+23 | RUN | READY |
+24 | READY | RUN |
+25 | READY | RUN | READY |
+26 | READY | RUN | READY |
+27 | RUN | READY | READY | READY |
+28 | RUN | READY | READY | READY |
+29 | RUN | READY | READY | READY |
+30 | READY | READY | RUN | READY |
+31 | READY | READY | RUN | READY |
+32 | READY | READY | RUN | READY |
+33 | READY | READY | READY | RUN |
+34 | READY | READY | READY | RUN |
+35 | READY | READY | READY | RUN |
+36 | READY | RUN | READY | READY |
+37 | READY | RUN | READY | READY |
+38 | READY | RUN | READY | READY |
+39 | RUN | READY | READY | READY |
+40 | RUN | READY | READY | READY |
+41 | RUN | READY | READY | READY |
+42 | READY | READY | RUN | READY |
+43 | READY | READY | RUN | READY |
+44 | READY | READY | RUN | READY |
+45 | READY | READY | READY | RUN |
+46 | READY | READY | READY | RUN |
+47 | READY | READY | READY | RUN |
+48 | READY | RUN | READY | READY |
+49 | READY | RUN | READY | READY |
+50 | READY | RUN | READY | READY |
+51 | RUN | READY | READY | READY |
+52 | RUN | READY | READY | READY |
+53 | RUN | READY | READY | READY |
+54 | READY | READY | RUN | READY |
+55 | READY | READY | RUN | READY |
+56 | READY | READY | RUN | READY |
+57 | READY | READY | READY | RUN |
+58 | READY | READY | READY | RUN |
+59 | READY | READY | READY | RUN |
+60 | READY | RUN | READY | READY |
+61 | READY | RUN | READY | READY |
+62 | READY | RUN | READY | READY |
+63 | RUN | READY | READY | READY |
+64 | RUN | READY | READY | READY |
+65 | RUN | READY | READY | READY |
+66 | READY | READY | RUN | READY |
+67 | READY | READY | RUN | READY |
+68 | READY | READY | RUN | READY |
+69 | READY | READY | READY | RUN |
+70 | READY | READY | READY | RUN |
+71 | READY | READY | READY | RUN |
+72 | READY | RUN | READY | READY |
+73 | READY | RUN | READY | READY |
+74 | READY | RUN | READY | READY |
+75 | RUN | READY | READY | READY |
+76 | RUN | READY | READY | READY |
+77 | RUN | READY | READY | READY |
+78 | READY | READY | RUN | READY |
+79 | READY | READY | RUN | READY |
+80 | READY | READY | RUN | READY |
+81 | READY | READY | READY | RUN |
+82 | READY | READY | READY | RUN |
+83 | READY | READY | READY | RUN |
+84 | READY | RUN | READY | READY |
+85 | READY | RUN | READY | READY |
+86 | READY | RUN | READY | READY |
+87 | RUN | READY | READY | READY |
+88 | RUN | READY | READY | READY |
+89 | RUN | READY | READY | READY |
+90 | EXIT | READY | RUN | READY |
+91 | EXIT | READY | RUN | READY |
+92 | EXIT | READY | RUN | READY |
+93 | EXIT | READY | READY | RUN |
+94 | EXIT | READY | READY | RUN |
+95 | EXIT | READY | READY | RUN |
+96 | EXIT | RUN | READY | READY |
+97 | EXIT | RUN | READY | READY |
+98 | EXIT | RUN | READY | READY |
+99 | EXIT | READY | RUN | READY |
+100 | EXIT | READY | RUN | READY |
+101 | EXIT | READY | RUN | READY |
+102 | EXIT | READY | READY | RUN |
+103 | EXIT | READY | READY | RUN |
+104 | EXIT | READY | READY | RUN |
+105 | EXIT | RUN | READY | READY |
+106 | EXIT | RUN | READY | READY |
+107 | EXIT | BLOCKED | RUN | READY |
+108 | EXIT | BLOCKED | RUN | READY |
+109 | EXIT | BLOCKED | RUN | READY |
+110 | EXIT | READY | EXIT | RUN |
+111 | EXIT | READY | EXIT | RUN |
+112 | EXIT | RUN | EXIT | BLOCKED |
+113 | EXIT | RUN | EXIT | BLOCKED |
+114 | EXIT | RUN | EXIT | BLOCKED |
+115 | EXIT | RUN | EXIT | READY |
+116 | EXIT | RUN | EXIT | READY |
+117 | EXIT | RUN | EXIT | READY |
+118 | EXIT | READY | EXIT | RUN |
+119 | EXIT | READY | EXIT | RUN |
+120 | EXIT | READY | EXIT | RUN |
+121 | EXIT | RUN | EXIT | READY |
+122 | EXIT | RUN | EXIT | READY |
+123 | EXIT | RUN | EXIT | READY |
+124 | EXIT | READY | EXIT | RUN |
+125 | EXIT | READY | EXIT | RUN |
+126 | EXIT | READY | EXIT | RUN |
+127 | EXIT | RUN | EXIT | READY |
+128 | EXIT | RUN | EXIT | READY |
+129 | EXIT | RUN | EXIT | READY |
+130 | EXIT | READY | EXIT | RUN |
+131 | EXIT | READY | EXIT | RUN |
+132 | EXIT | READY | EXIT | RUN |
+133 | EXIT | RUN | EXIT | READY |
+134 | EXIT | RUN | EXIT | READY |
+135 | EXIT | RUN | EXIT | READY |
+136 | EXIT | READY | EXIT | RUN |
+137 | EXIT | READY | EXIT | RUN |
+138 | EXIT | READY | EXIT | RUN |
+139 | EXIT | RUN | EXIT | READY |
+140 | EXIT | RUN | EXIT | READY |
+0 |
+1 |
+2 |
+3 |
+4 |
+5 |
+6 |
+7 |
+8 |
+9 |
+10 |
+11 |
+12 | RUN |
+13 | RUN |
+14 | RUN |
+15 | RUN | READY |
+16 | RUN | READY |
+17 | READY | RUN | READY |
+18 | READY | RUN | READY |
+19 | READY | RUN | READY | READY |
+20 | READY | READY | RUN | READY |
+21 | READY | READY | RUN | READY |
+22 | READY | READY | RUN | READY |
+23 | RUN | READY | READY | READY |
+24 | RUN | READY | READY | READY |
+25 | RUN | READY | READY | READY |
+26 | READY | READY | READY | RUN |
+27 | READY | READY | READY | RUN |
+28 | READY | READY | READY | RUN |
+29 | READY | RUN | READY | READY |
+30 | READY | RUN | READY | READY |
+31 | READY | RUN | READY | READY |
+32 | READY | READY | RUN | READY |
+33 | READY | READY | RUN | READY |
+34 | READY | READY | RUN | READY |
+35 | RUN | READY | READY | READY |
+36 | RUN | READY | READY | READY |
+37 | RUN | READY | READY | READY |
+38 | READY | READY | READY | RUN |
+39 | READY | READY | READY | RUN |
+40 | READY | READY | READY | RUN |
+41 | READY | RUN | READY | READY |
+42 | READY | RUN | READY | READY |
+43 | READY | RUN | READY | READY |
+44 | READY | READY | RUN | READY |
+45 | READY | READY | RUN | READY |
+46 | READY | READY | RUN | READY |
+47 | RUN | READY | READY | READY |
+48 | RUN | READY | READY | READY |
+49 | RUN | READY | READY | READY |
+50 | READY | READY | READY | RUN |
+51 | READY | READY | READY | RUN |
+52 | READY | READY | READY | RUN |
+53 | READY | RUN | READY | READY |
+54 | READY | RUN | READY | READY |
+55 | READY | RUN | READY | READY |
+56 | READY | READY | RUN | READY |
+57 | READY | READY | RUN | READY |
+58 | READY | READY | RUN | READY |
+59 | RUN | READY | READY | READY |
+60 | RUN | READY | READY | READY |
+61 | RUN | READY | READY | READY |
+62 | READY | READY | READY | RUN |
+63 | READY | READY | READY | RUN |
+64 | READY | READY | READY | RUN |
+65 | READY | RUN | READY | READY |
+66 | READY | RUN | READY | READY |
+67 | READY | RUN | READY | READY |
+68 | READY | READY | RUN | READY |
+69 | READY | READY | RUN | READY |
+70 | READY | READY | RUN | READY |
+71 | RUN | READY | READY | READY |
+72 | RUN | READY | READY | READY |
+73 | RUN | READY | READY | READY |
+74 | READY | READY | READY | RUN |
+75 | READY | READY | READY | RUN |
+76 | READY | READY | READY | RUN |
+77 | READY | RUN | READY | READY |
+78 | READY | RUN | READY | READY |
+79 | READY | RUN | READY | READY |
+80 | READY | READY | RUN | READY |
+81 | READY | READY | RUN | READY |
+82 | READY | READY | RUN | READY |
+83 | RUN | READY | READY | READY |
+84 | RUN | READY | READY | READY |
+85 | RUN | READY | READY | READY |
+86 | EXIT | READY | READY | RUN |
+87 | EXIT | READY | READY | RUN |
+88 | EXIT | READY | READY | RUN |
+89 | EXIT | RUN | READY | READY |
+90 | EXIT | RUN | READY | READY |
+91 | EXIT | RUN | READY | READY |
+92 | EXIT | READY | RUN | READY |
+93 | EXIT | READY | RUN | READY |
+94 | EXIT | READY | RUN | READY |
+95 | EXIT | READY | READY | RUN |
+96 | EXIT | READY | READY | RUN |
+97 | EXIT | READY | READY | RUN |
+98 | EXIT | RUN | READY | READY |
+99 | EXIT | RUN | READY | READY |
+100 | EXIT | BLOCKED | RUN | READY |
+101 | EXIT | BLOCKED | RUN | READY |
+102 | EXIT | BLOCKED | RUN | READY |
+103 | EXIT | READY | EXIT | RUN |
+104 | EXIT | READY | EXIT | RUN |
+105 | EXIT | RUN | EXIT | BLOCKED |
+106 | EXIT | RUN | EXIT | BLOCKED |
+107 | EXIT | RUN | EXIT | BLOCKED |
+108 | EXIT | RUN | EXIT | READY |
+109 | EXIT | RUN | EXIT | READY |
+110 | EXIT | RUN | EXIT | READY |
+111 | EXIT | READY | EXIT | RUN |
+112 | EXIT | READY | EXIT | RUN |
+113 | EXIT | READY | EXIT | RUN |
+114 | EXIT | RUN | EXIT | READY |
+115 | EXIT | RUN | EXIT | READY |
+116 | EXIT | RUN | EXIT | READY |
+117 | EXIT | READY | EXIT | RUN |
+118 | EXIT | READY | EXIT | RUN |
+119 | EXIT | READY | EXIT | RUN |
+120 | EXIT | RUN | EXIT | READY |
+121 | EXIT | RUN | EXIT | READY |
+122 | EXIT | RUN | EXIT | READY |
+123 | EXIT | READY | EXIT | RUN |
+124 | EXIT | READY | EXIT | RUN |
+125 | EXIT | READY | EXIT | RUN |
+126 | EXIT | RUN | EXIT | READY |
+127 | EXIT | RUN | EXIT | READY |
+128 | EXIT | RUN | EXIT | READY |
+129 | EXIT | READY | EXIT | RUN |
+130 | EXIT | READY | EXIT | RUN |
+131 | EXIT | READY | EXIT | RUN |
+132 | EXIT | RUN | EXIT | READY |
+133 | EXIT | RUN | EXIT | READY |
+134 | EXIT | RUN | EXIT | READY |
+135 | EXIT | READY | EXIT | RUN |
+136 | EXIT | READY | EXIT | RUN |
+137 | EXIT | READY | EXIT | RUN |
+138 | EXIT | RUN | EXIT | READY |
+139 | EXIT | RUN | EXIT | READY |
+0 |
+1 |
+2 |
+3 |
+4 | RUN |
+5 | RUN |
+6 | READY | RUN |
+7 | READY | RUN |
+8 | READY | RUN | READY |
+9 | RUN | READY | READY |
+10 | RUN | READY | READY |
+11 | RUN | READY | READY |
+12 | READY | READY | RUN |
+13 | READY | READY | RUN |
+14 | READY | READY | RUN | READY |
+15 | READY | RUN | READY | READY |
+16 | READY | RUN | READY | READY |
+17 | READY | RUN | READY | READY |
+18 | RUN | READY | READY | READY |
+19 | RUN | READY | READY | READY |
+20 | RUN | READY | READY | READY |
+21 | READY | READY | READY | RUN |
+22 | READY | READY | READY | RUN |
+23 | READY | READY | READY | RUN |
+24 | READY | READY | RUN | READY |
+25 | READY | READY | RUN | READY |
+26 | READY | READY | RUN | READY |
+27 | READY | RUN | READY | READY |
+28 | READY | RUN | READY | READY |
+29 | READY | RUN | READY | READY |
+30 | RUN | READY | READY | READY |
+31 | RUN | READY | READY | READY |
+32 | RUN | READY | READY | READY |
+33 | READY | READY | READY | RUN |
+34 | READY | READY | READY | RUN |
+35 | READY | READY | READY | RUN |
+36 | READY | READY | RUN | READY |
+37 | READY | READY | RUN | READY |
+38 | READY | READY | RUN | READY |
+39 | READY | RUN | READY | READY |
+40 | READY | RUN | READY | READY |
+41 | READY | RUN | READY | READY |
+42 | RUN | READY | READY | READY |
+43 | RUN | READY | READY | READY |
+44 | RUN | READY | READY | READY |
+45 | READY | READY | READY | RUN |
+46 | READY | READY | READY | RUN |
+47 | READY | READY | READY | RUN |
+48 | READY | READY | RUN | READY |
+49 | READY | READY | RUN | READY |
+50 | READY | READY | RUN | READY |
+51 | READY | RUN | READY | READY |
+52 | READY | RUN | READY | READY |
+53 | READY | RUN | READY | READY |
+54 | RUN | READY | READY | READY |
+55 | RUN | READY | READY | READY |
+56 | RUN | READY | READY | READY |
+57 | READY | READY | READY | RUN |
+58 | READY | READY | READY | RUN |
+59 | READY | READY | READY | RUN |
+60 | READY | READY | RUN | READY |
+61 | READY | READY | RUN | READY |
+62 | READY | READY | RUN | READY |
+63 | READY | RUN | READY | READY |
+64 | READY | RUN | READY | READY |
+65 | READY | RUN | READY | READY |
+66 | RUN | READY | READY | READY |
+67 | RUN | READY | READY | READY |
+68 | RUN | READY | READY | READY |
+69 | READY | READY | READY | RUN |
+70 | READY | READY | READY | RUN |
+71 | READY | READY | READY | RUN |
+72 | READY | READY | RUN | READY |
+73 | READY | READY | RUN | READY |
+74 | READY | READY | RUN | READY |
+75 | READY | RUN | READY | READY |
+76 | READY | RUN | READY | READY |
+77 | READY | RUN | READY | READY |
+78 | RUN | READY | READY | READY |
+79 | RUN | READY | READY | READY |
+80 | RUN | READY | READY | READY | READY |
+81 | RUN | READY | READY | RUN | READY |
+82 | RUN | READY | READY | RUN | READY |
+83 | RUN | READY | READY | RUN | READY |
+84 | RUN | READY | RUN | READY | READY |
+85 | RUN | READY | RUN | READY | READY |
+86 | RUN | READY | RUN | READY | READY |
+87 | RUN | RUN | READY | READY | READY |
+88 | RUN | RUN | READY | READY | READY |
+89 | RUN | RUN | READY | READY | READY | READY |
+0 |
+1 |
+2 |
+3 | RUN |
+4 | RUN |
+5 | READY | RUN |
+6 | READY | RUN |
+7 | READY | RUN | READY |
+8 | RUN | READY | READY |
+9 | RUN | READY | READY |
+10 | RUN | READY | READY |
+11 | READY | READY | RUN |
+12 | READY | READY | RUN |
+13 | READY | READY | RUN | READY |
+14 | READY | RUN | READY | READY |
+15 | READY | RUN | READY | READY |
+16 | READY | RUN | READY | READY |
+17 | RUN | READY | READY | READY |
+18 | RUN | READY | READY | READY |
+19 | RUN | READY | READY | READY |
+20 | READY | READY | READY | RUN |
+21 | READY | READY | READY | RUN |
+22 | READY | READY | READY | RUN |
+23 | READY | READY | RUN | READY |
+24 | READY | READY | RUN | READY |
+25 | READY | READY | RUN | READY |
+26 | READY | RUN | READY | READY |
+27 | READY | RUN | READY | READY |
+28 | READY | RUN | READY | READY |
+29 | RUN | READY | READY | READY |
+30 | RUN | READY | READY | READY |
+31 | RUN | READY | READY | READY |
+32 | READY | READY | READY | RUN |
+33 | READY | READY | READY | RUN |
+34 | READY | READY | READY | RUN |
+35 | READY | READY | RUN | READY |
+36 | READY | READY | RUN | READY |
+37 | READY | READY | RUN | READY |
+38 | READY | RUN | READY | READY |
+39 | READY | RUN | READY | READY |
+40 | READY | RUN | READY | READY |
+41 | RUN | READY | READY | READY |
+42 | RUN | READY | READY | READY |
+43 | RUN | READY | READY | READY |
+44 | READY | READY | READY | RUN |
+45 | READY | READY | READY | RUN |
+46 | READY | READY | READY | RUN |
+47 | READY | READY | RUN | READY |
+48 | READY | READY | RUN | READY |
+49 | READY | READY | RUN | READY |
+50 | READY | RUN | READY | READY |
+51 | READY | RUN | READY | READY |
+52 | READY | RUN | READY | READY |
+53 | RUN | READY | READY | READY |
+54 | RUN | READY | READY | READY |
+55 | RUN | READY | READY | READY |
+56 | READY | READY | READY | RUN |
+57 | READY | READY | READY | RUN |
+58 | READY | READY | READY | RUN |
+59 | READY | READY | RUN | READY |
+60 | READY | READY | RUN | READY |
+61 | READY | READY | RUN | READY |
+62 | READY | RUN | READY | READY |
+63 | READY | RUN | READY | READY |
+64 | READY | RUN | READY | READY |
+65 | RUN | READY | READY | READY |
+66 | RUN | READY | READY | READY |
+67 | RUN | READY | READY | READY |
+68 | READY | READY | READY | RUN |
+69 | READY | READY | READY | RUN |
+70 | READY | READY | READY | RUN |
+71 | READY | READY | RUN | READY |
+72 | READY | READY | RUN | READY |
+73 | READY | READY | RUN | READY |
+74 | READY | RUN | READY | READY |
+75 | READY | RUN | READY | READY |
+76 | READY | RUN | READY | READY |
+77 | RUN | READY | READY | READY |
+78 | RUN | READY | READY | READY |
+79 | RUN | READY | READY | READY | READY |
+80 | RUN | READY | READY | RUN | READY |
+81 | RUN | READY | READY | RUN | READY |
+82 | RUN | READY | READY | RUN | READY |
+83 | RUN | READY | RUN | READY | READY |
+84 | RUN | READY | RUN | READY | READY |
+85 | RUN | READY | RUN | READY | READY |
+86 | RUN | RUN | READY | READY | READY |
+87 | RUN | RUN | READY | READY | READY |
+88 | RUN | RUN | READY | READY | READY | READY |
+0 |
+1 |
+2 |
+0 |
+1 |
+2 |
+3 | RUN |
+4 | RUN |
+5 | RUN |
+6 | RUN |
+7 | RUN | READY |
+8 | READY | RUN |
+9 | READY | RUN |
+10 | READY | RUN | READY |
+11 | RUN | READY | READY |
+12 | RUN | READY | READY |
+13 | RUN | READY | READY | READY |
+14 | READY | READY | RUN | READY |
+15 | READY | READY | RUN | READY |
+16 | READY | READY | RUN | READY |
+17 | READY | RUN | READY | READY |
+18 | READY | RUN | READY | READY |
+19 | READY | RUN | READY | READY |
+20 | READY | READY | READY | RUN |
+21 | READY | READY | READY | RUN |
+22 | READY | READY | READY | RUN |
+23 | RUN | READY | READY | READY |
+24 | RUN | READY | READY | READY |
+25 | RUN | READY | READY | READY |
+26 | READY | READY | RUN | READY |
+27 | READY | READY | RUN | READY |
+28 | READY | READY | RUN | READY |
+29 | READY | RUN | READY | READY |
+30 | READY | RUN | READY | READY |
+31 | READY | RUN | READY | READY |
+32 | READY | READY | READY | RUN |
+33 | READY | READY | READY | RUN |
+34 | READY | READY | READY | RUN |
+35 | RUN | READY | READY | READY |
+36 | RUN | READY | READY | READY |
+37 | RUN | READY | READY | READY |
+38 | READY | READY | RUN | READY |
+39 | READY | READY | RUN | READY |
+40 | READY | READY | RUN | READY |
+41 | READY | RUN | READY | READY |
+42 | READY | RUN | READY | READY |
+43 | READY | RUN | READY | READY |
+44 | READY | READY | READY | RUN |
+45 | READY | READY | READY | RUN |
+46 | READY | READY | READY | RUN |
+47 | RUN | READY | READY | READY |
+48 | RUN | READY | READY | READY |
+49 | RUN | READY | READY | READY |
+50 | READY | READY | RUN | READY |
+51 | READY | READY | RUN | READY |
+52 | READY | READY | RUN | READY |
+53 | READY | RUN | READY | READY |
+54 | READY | RUN | READY | READY |
+55 | READY | RUN | READY | READY |
+56 | READY | READY | READY | RUN |
+57 | READY | READY | READY | RUN |
+58 | READY | READY | READY | RUN |
+59 | RUN | READY | READY | READY |
+60 | RUN | READY | READY | READY |
+61 | RUN | READY | READY | READY |
+62 | READY | READY | RUN | READY |
+63 | READY | READY | RUN | READY |
+64 | READY | READY | RUN | READY |
+65 | READY | RUN | READY | READY |
+66 | READY | RUN | READY | READY |
+67 | READY | RUN | READY | READY |
+68 | READY | READY | READY | RUN |
+69 | READY | READY | READY | RUN |
+70 | READY | READY | READY | RUN |
+71 | RUN | READY | READY | READY |
+72 | RUN | READY | READY | READY |
+73 | RUN | READY | READY | READY | READY |
+74 | RUN | READY | RUN | READY | READY |
+75 | RUN | READY | RUN | READY | READY |
+76 | RUN | READY | RUN | READY | READY |
+77 | RUN | RUN | READY | READY | READY |
+78 | RUN | RUN | READY | READY | READY |
+79 | RUN | RUN | READY | READY | READY |
+80 | RUN | READY | READY | RUN | READY |
+81 | RUN | READY | READY | RUN | READY |
+82 | RUN | READY | READY | RUN | READY |
+83 | RUN | READY | READY | READY | RUN |
+84 | RUN | READY | READY | READY | RUN |
+85 | RUN | READY | READY | READY | RUN |
+86 | RUN | READY | RUN | READY | READY |
+87 | RUN | READY | RUN | READY | READY |
+88 | RUN | READY | RUN | READY | READY |
+89 | RUN | RUN | READY | READY | READY |
+90 | RUN | RUN | READY | READY | READY |
+91 | RUN | RUN | READY | READY | READY | READY |
+0 |
+1 |
+2 |
+3 | RUN |
+4 | RUN |
+5 | RUN |
+6 | RUN |
+7 | RUN |
+8 | RUN |
+9 | RUN | READY |
+10 | RUN | READY |
+11 | READY | RUN |
+12 | READY | RUN |
+13 | READY | RUN | READY |
+14 | RUN | READY | READY |
+15 | RUN | READY | READY |
+16 | RUN | READY | READY |
+17 | READY | READY | RUN |
+18 | READY | READY | RUN |
+19 | READY | READY | RUN |
+20 | READY | RUN | READY | READY |
+21 | READY | RUN | READY | READY |
+22 | READY | RUN | READY | READY |
+23 | RUN | READY | READY | READY |
+24 | RUN | READY | READY | READY |
+25 | RUN | READY | READY | READY |
+26 | READY | READY | READY | RUN |
+27 | READY | READY | READY | RUN |
+28 | READY | READY | READY | RUN |
+29 | READY | READY | RUN | READY |
+30 | READY | READY | RUN | READY |
+31 | READY | READY | RUN | READY |
+32 | READY | RUN | READY | READY |
+33 | READY | RUN | READY | READY |
+34 | READY | RUN | READY | READY |
+35 | RUN | READY | READY | READY |
+36 | RUN | READY | READY | READY |
+37 | RUN | READY | READY | READY |
+38 | READY | READY | RUN | READY |
+39 | READY | READY | RUN | READY |
+40 | READY | READY | RUN | READY |
+41 | READY | RUN | READY | READY |
+42 | READY | RUN | READY | READY |
+43 | READY | RUN | READY | READY |
+44 | RUN | READY | READY | READY |
+45 | RUN | READY | READY | READY |
+46 | RUN | READY | READY | READY |
+47 | READY | READY | READY | RUN |
+48 | READY | READY | READY | RUN |
+49 | READY | READY | READY | RUN |
+50 | READY | READY | RUN | READY |
+51 | READY | READY | RUN | READY |
+52 | READY | READY | RUN | READY |
+53 | READY | RUN | READY | READY |
+54 | READY | RUN | READY | READY |
+55 | READY | RUN | READY | READY |
+56 | RUN | READY | READY | READY |
+57 | RUN | READY | READY | READY |
+58 | RUN | READY | READY | READY |
+59 | READY | READY | READY | RUN |
+60 | READY | READY | READY | RUN |
+61 | READY | READY | READY | RUN |
+62 | READY | READY | RUN | READY |
+63 | READY | READY | RUN | READY |
+64 | READY | READY | RUN | READY |
+65 | READY | RUN | READY | READY |
+66 | READY | RUN | READY | READY |
+67 | READY | RUN | READY | READY |
+68 | RUN | READY | READY | READY |
+69 | RUN | READY | READY | READY |
+70 | RUN | READY | READY | READY |
+71 | READY | READY | READY | RUN |
+72 | READY | READY | READY | RUN |
+73 | READY | READY | READY | RUN | READY |
+74 | READY | READY | RUN | RUN | READY |
+75 | READY | READY | RUN | RUN | READY |
+76 | READY | READY | RUN | RUN | READY |
+77 | READY | RUN | READY | RUN | READY |
+78 | READY | RUN | READY | RUN | READY |
+79 | READY | RUN | READY | RUN | READY |
+80 | RUN | READY | READY | RUN | READY |
+81 | RUN | READY | READY | RUN | READY |
+82 | RUN | READY | READY | RUN | READY |
+83 | READY | READY | READY | RUN | RUN |
+84 | READY | READY | READY | RUN | RUN |
+85 | READY | READY | READY | RUN | RUN |
+86 | READY | READY | RUN | RUN | READY |
+87 | READY | READY | RUN | RUN | READY |
+88 | READY | READY | RUN | RUN | READY |
+89 | READY | RUN | READY | RUN | READY |
+90 | READY | RUN | READY | RUN | READY | READY |
+91 | READY | RUN | READY | RUN | READY | READY |
+92 | RUN | RUN | READY | RUN | READY | READY |
+93 | RUN | RUN | READY | RUN | READY | READY | READY |
+94 | NEW | RUN | READY | READY | READY | READY |
+95 | NEW | RUN | READY | RUN | READY | READY |
+96 | NEW | RUN | READY | RUN | READY | READY |
+97 | NEW | RUN | READY | RUN | READY | READY |
+0 |
+1 |
+2 |
+3 | RUN |
+4 | RUN |
+5 | READY | RUN |
+6 | READY | RUN |
+7 | READY | RUN | READY |
+8 | RUN | READY | READY |
+9 | RUN | READY | READY | READY |
+10 | RUN | READY | READY | READY |
+11 | READY | RUN | READY | READY |
+12 | READY | RUN | READY | READY |
+13 | READY | RUN | READY | READY |
+14 | RUN | READY | READY | READY |
+15 | RUN | READY | READY | READY | READY |
+16 | RUN | READY | READY | READY | READY |
+17 | RUN | READY | RUN | READY | READY |
+18 | RUN | READY | RUN | READY | READY |
+19 | RUN | READY | RUN | READY | READY |
+20 | RUN | READY | READY | RUN | READY |
+21 | RUN | READY | READY | RUN | READY |
+22 | RUN | READY | READY | RUN | READY |
+23 | RUN | RUN | READY | READY | READY |
+24 | RUN | RUN | READY | READY | READY |
+0 |
+1 |
+2 |
+3 | RUN |
+4 | RUN |
+5 | RUN |
+6 | RUN | READY |
+7 | RUN | READY |
+8 | READY | RUN | READY |
+9 | READY | RUN | READY |
+10 | READY | RUN | READY | READY |
+11 | READY | READY | RUN | READY |
+12 | READY | READY | RUN | READY |
+13 | READY | READY | RUN | READY |
+14 | RUN | READY | READY | READY |
+15 | RUN | READY | READY | READY |
+16 | RUN | READY | READY | READY |
+17 | READY | READY | READY | RUN | READY |
+18 | READY | READY | READY | RUN | READY |
+19 | READY | READY | READY | RUN | READY |
+20 | READY | RUN | READY | READY | READY |
+21 | READY | RUN | READY | READY | READY |
+22 | READY | RUN | READY | READY | READY |
+23 | READY | READY | RUN | READY | READY |
+24 | READY | READY | RUN | READY | READY |
+25 | READY | READY | RUN | READY | READY |
+26 | READY | READY | READY | READY | RUN |
+27 | READY | READY | READY | READY | RUN |
+28 | READY | READY | READY | READY | RUN |
+29 | RUN | READY | READY | READY | READY |
+30 | RUN | READY | READY | READY | READY |
+31 | RUN | READY | READY | READY | READY |
+32 | READY | READY | READY | RUN | READY |
+33 | READY | READY | READY | RUN | READY |
+34 | READY | READY | READY | RUN | READY |
+35 | READY | RUN | READY | READY | READY |
+36 | READY | RUN | READY | READY | READY |
+37 | READY | RUN | READY | READY | READY |
+38 | READY | READY | RUN | READY | READY |
+39 | READY | READY | RUN | READY | READY |
+40 | READY | READY | RUN | READY | READY |
+41 | READY | READY | READY | READY | RUN |
+42 | READY | READY | READY | READY | RUN |
+43 | READY | READY | READY | READY | RUN |
+44 | RUN | READY | READY | READY | READY |
+0 |
+1 |
+2 |
+3 |
+4 |
+5 |
+6 | RUN |
+7 | RUN |
+8 | RUN |
+9 | RUN |
+10 | RUN | READY |
+11 | READY | RUN |
+12 | READY | RUN |
+13 | READY | RUN |
+14 | RUN | READY |
+15 | RUN | READY | READY |
+16 | RUN | READY | READY |
+17 | READY | RUN | READY |
+18 | READY | RUN | READY |
+19 | READY | RUN | READY |
+20 | READY | READY | RUN |
+21 | READY | READY | RUN |
+22 | READY | READY | RUN | NEW |
+23 | RUN | READY | READY | NEW |
+24 | RUN | READY | READY | NEW |
+25 | RUN | READY | READY | NEW |
+26 | READY | RUN | READY | NEW |
+27 | READY | RUN | READY | NEW |
+28 | READY | RUN | READY | NEW |
+29 | READY | READY | RUN | NEW |
+30 | READY | READY | RUN | NEW |
+31 | READY | READY | RUN | NEW |
+32 | RUN | READY | READY | NEW |
+33 | RUN | READY | READY | NEW | NEW |
+34 | RUN | READY | READY | NEW | NEW |
+35 | READY | RUN | READY | NEW | NEW |
+36 | READY | RUN | READY | NEW | NEW |
+37 | READY | RUN | READY | NEW | NEW |
+38 | READY | READY | RUN | NEW | NEW |
+39 | READY | READY | RUN | NEW | NEW |
+40 | READY | READY | RUN | NEW | NEW |
+41 | RUN | READY | READY | NEW | NEW |
+42 | RUN | READY | READY | NEW | NEW |
+43 | RUN | READY | READY | NEW | NEW |
+44 | READY | RUN | READY | NEW | NEW |
+45 | READY | RUN | READY | NEW | NEW |
+46 | READY | RUN | READY | NEW | NEW |
+47 | READY | READY | RUN | NEW | NEW |
+48 | READY | READY | RUN | NEW | NEW |
+49 | READY | READY | RUN | NEW | NEW |
+50 | RUN | READY | READY | NEW | NEW |
+51 | RUN | READY | READY | NEW | NEW |
+52 | RUN | READY | READY | NEW | NEW |
+53 | READY | RUN | READY | NEW | NEW |
+54 | READY | RUN | READY | NEW | NEW |
+55 | READY | RUN | READY | NEW | NEW |
+56 | READY | READY | RUN | NEW | NEW |
+57 | READY | READY | RUN | NEW | NEW |
+58 | READY | READY | RUN | NEW | NEW |
+59 | RUN | READY | READY | NEW | NEW |
+60 | RUN | READY | READY | NEW | NEW |
+61 | BLOCKED | RUN | READY | NEW | NEW |
+62 | BLOCKED | RUN | READY | READY | NEW |
+63 | BLOCKED | RUN | READY | READY | NEW |
+64 | READY | READY | RUN | READY | NEW |
+65 | READY | READY | RUN | READY | NEW |
+66 | READY | READY | RUN | READY | NEW |
+67 | READY | READY | READY | RUN | NEW |
+68 | READY | READY | READY | RUN | NEW |
+69 | READY | READY | READY | RUN | NEW |
+70 | READY | RUN | READY | READY | NEW |
+71 | READY | RUN | READY | READY | NEW |
+72 | RUN | BLOCKED | READY | READY | NEW |
+73 | RUN | BLOCKED | READY | READY | NEW |
+74 | RUN | BLOCKED | READY | READY | NEW |
+75 | READY | READY | RUN | READY | NEW |
+76 | READY | READY | RUN | READY | NEW |
+77 | READY | READY | RUN | READY | NEW |
+78 | READY | READY | READY | RUN | NEW |
+79 | READY | READY | READY | RUN | NEW |
+80 | READY | READY | READY | RUN | NEW |
+81 | RUN | READY | READY | READY | NEW |
+82 | RUN | READY | READY | READY | NEW |
+83 | RUN | READY | READY | READY | NEW |
+84 | READY | RUN | READY | READY | NEW |
+85 | READY | RUN | READY | READY | NEW |
+86 | READY | RUN | READY | READY | NEW |
+87 | READY | READY | RUN | READY | NEW |
+88 | READY | READY | RUN | READY | NEW |
+89 | READY | READY | BLOCKED | RUN | NEW |
+90 | READY | READY | BLOCKED | RUN | NEW |
+91 | READY | READY | BLOCKED | RUN | NEW |
+92 | RUN | READY | READY | READY | NEW |
+93 | RUN | READY | READY | READY | NEW |
+94 | RUN | READY | READY | READY | NEW |
+95 | READY | RUN | READY | READY | NEW |
+96 | READY | RUN | READY | READY | NEW |
+97 | READY | RUN | READY | READY | NEW |
+98 | READY | READY | READY | RUN | NEW |
+99 | READY | READY | READY | RUN | NEW |
+100 | READY | READY | READY | RUN | NEW |
+101 | READY | READY | RUN | READY | NEW |
+102 | READY | READY | RUN | READY | NEW |
+103 | READY | READY | RUN | READY | NEW |
+104 | RUN | READY | READY | READY | NEW |
+105 | RUN | READY | READY | READY | NEW |
+106 | RUN | READY | READY | READY | NEW |
+107 | READY | RUN | READY | READY | NEW |
+108 | READY | RUN | READY | READY | NEW |
+109 | READY | RUN | READY | READY | NEW |
+110 | READY | READY | READY | RUN | NEW |
+111 | READY | READY | READY | RUN | NEW |
+112 | READY | READY | READY | RUN | NEW |
+113 | READY | READY | RUN | READY | NEW |
+114 | READY | READY | RUN | READY | NEW |
+0 |
+1 |
+2 |
+3 |
+4 |
+5 |
+6 |
+7 | RUN |
+8 | RUN |
+9 | RUN | READY |
+10 | RUN | READY |
+11 | RUN | READY | READY |
+12 | READY | RUN | READY |
+13 | READY | RUN | READY | READY |
+14 | READY | RUN | READY | READY |
+15 | READY | RUN | READY | READY | READY |
+16 | READY | RUN | READY | READY | READY |
+17 | READY | RUN | READY | READY | READY |
+18 | READY | READY | RUN | READY | READY |
+19 | READY | READY | RUN | READY | READY |
+20 | READY | READY | RUN | READY | READY |
+21 | READY | READY | RUN | READY | READY |
+22 | READY | READY | RUN | READY | READY |
+23 | READY | READY | RUN | READY | READY |
+24 | RUN | READY | READY | READY | READY |
+25 | RUN | READY | READY | READY | READY |
+26 | RUN | READY | READY | READY | READY |
+27 | RUN | READY | READY | READY | READY |
+28 | RUN | READY | READY | READY | READY |
+29 | RUN | READY | READY | READY | READY |
+30 | READY | READY | READY | RUN | READY |
+31 | READY | READY | READY | RUN | READY |
+32 | READY | READY | READY | RUN | READY |
+33 | READY | READY | READY | RUN | READY |
+34 | READY | READY | READY | RUN | READY |
+35 | READY | READY | READY | RUN | READY |
+36 | READY | READY | READY | READY | RUN |
+37 | READY | READY | READY | READY | RUN |
+38 | READY | READY | READY | READY | RUN |
+39 | READY | READY | READY | READY | RUN |
+40 | READY | READY | READY | READY | RUN |
+41 | READY | READY | READY | READY | RUN |
+42 | READY | RUN | READY | READY | READY |
+43 | READY | RUN | READY | READY | READY |
+44 | READY | RUN | READY | READY | READY |
+45 | READY | RUN | READY | READY | READY |
+46 | READY | RUN | READY | READY | READY |
+47 | READY | RUN | READY | READY | READY |
+48 | READY | READY | RUN | READY | READY |
+49 | READY | READY | RUN | READY | READY |
+50 | READY | READY | RUN | READY | READY |
+51 | READY | READY | RUN | READY | READY |
+52 | READY | READY | RUN | READY | READY |
+53 | READY | READY | RUN | READY | READY |
+54 | RUN | READY | READY | READY | READY |
+55 | RUN | READY | READY | READY | READY |
+56 | RUN | READY | READY | READY | READY |
+57 | RUN | READY | READY | READY | READY |
+58 | RUN | READY | READY | READY | READY |
+59 | RUN | READY | READY | READY | READY |
+60 | READY | READY | READY | RUN | READY |
+61 | READY | READY | READY | RUN | READY |
+62 | READY | READY | READY | RUN | READY |
+63 | READY | READY | READY | RUN | READY |
+64 | READY | READY | READY | RUN | READY |
+65 | READY | READY | READY | RUN | READY |
+66 | READY | READY | READY | READY | RUN |
+67 | READY | READY | READY | READY | RUN |
+68 | READY | READY | READY | READY | RUN |
+69 | READY | READY | READY | READY | RUN |
+70 | READY | READY | READY | READY | RUN |
+71 | READY | READY | READY | READY | RUN | READY |
+72 | READY | RUN | READY | READY | READY | READY |
+73 | READY | RUN | READY | READY | READY | READY | READY |
+74 | READY | RUN | READY | READY | READY | READY | READY |
+75 | READY | RUN | READY | READY | READY | READY | READY |
+76 | READY | RUN | READY | READY | READY | READY | READY | NEW |
+77 | READY | RUN | READY | READY | READY | READY | READY | NEW |
+78 | READY | READY | RUN | READY | READY | READY | READY | NEW |
+79 | READY | READY | RUN | READY | READY | READY | READY | NEW |
+80 | READY | READY | RUN | READY | READY | READY | READY | NEW |
+81 | READY | READY | RUN | READY | READY | READY | READY | NEW |
+82 | READY | READY | RUN | READY | READY | READY | READY | NEW |
+83 | READY | READY | RUN | READY | READY | READY | READY | NEW |
+84 | RUN | READY | READY | READY | READY | READY | READY | NEW |
+85 | RUN | READY | READY | READY | READY | READY | READY | NEW |
+86 | RUN | READY | READY | READY | READY | READY | READY | NEW |
+87 | RUN | READY | READY | READY | READY | READY | READY | NEW |
+88 | RUN | READY | READY | READY | READY | READY | READY | NEW |
+89 | RUN | READY | READY | READY | READY | READY | READY | NEW | READY |
+90 | READY | READY | READY | RUN | READY | READY | READY | NEW | READY |
+91 | READY | READY | READY | RUN | READY | READY | READY | NEW | READY |
+92 | READY | READY | READY | RUN | READY | READY | READY | NEW | READY |
+93 | READY | READY | READY | RUN | READY | READY | READY | NEW | READY |
+94 | READY | READY | READY | RUN | READY | READY | READY | NEW | READY |
+95 | READY | READY | READY | RUN | READY | READY | READY | NEW | READY |
+96 | READY | READY | READY | READY | READY | RUN | READY | NEW | READY |
+97 | READY | READY | READY | READY | READY | RUN | READY | NEW | READY |
+98 | READY | READY | READY | READY | READY | RUN | READY | NEW | READY |
+99 | READY | READY | READY | READY | READY | RUN | READY | NEW | READY |
+100 | READY | READY | READY | READY | READY | RUN | READY | NEW | READY |
+101 | READY | READY | READY | READY | READY | RUN | READY | NEW | READY |
+102 | READY | READY | READY | READY | RUN | READY | READY | NEW | READY |
+103 | READY | READY | READY | READY | RUN | READY | READY | NEW | READY |
+104 | READY | READY | READY | READY | RUN | READY | READY | NEW | READY |
+105 | READY | READY | READY | READY | RUN | READY | READY | NEW | READY |
+106 | READY | READY | READY | READY | RUN | READY | READY | NEW | READY |
+107 | READY | READY | READY | READY | RUN | READY | READY | NEW | READY |
+108 | READY | READY | READY | READY | READY | READY | RUN | NEW | READY |
+109 | READY | READY | READY | READY | READY | READY | RUN | NEW | READY |
+110 | READY | READY | READY | READY | READY | READY | RUN | NEW | READY |
+111 | READY | READY | READY | READY | READY | READY | RUN | NEW | READY |
+112 | READY | READY | READY | READY | READY | READY | RUN | NEW | READY |
+113 | READY | READY | READY | READY | READY | READY | RUN | NEW | READY |
+114 | READY | RUN | READY | READY | READY | READY | READY | NEW | READY |
+115 | READY | RUN | READY | READY | READY | READY | READY | NEW | READY |
+116 | READY | RUN | READY | READY | READY | READY | READY | NEW | READY |
+117 | READY | RUN | READY | READY | READY | READY | READY | NEW | READY |
+118 | READY | RUN | READY | READY | READY | READY | READY | NEW | READY |
+119 | READY | BLOCKED | RUN | READY | READY | READY | READY | NEW | READY |
+120 | READY | BLOCKED | RUN | READY | READY | READY | READY | NEW | READY |
+121 | READY | BLOCKED | RUN | READY | READY | READY | READY | NEW | READY |
+122 | READY | READY | RUN | READY | READY | READY | READY | NEW | READY |
+123 | READY | READY | RUN | READY | READY | READY | READY | NEW | READY |
+124 | READY | READY | RUN | READY | READY | READY | READY | NEW | READY | READY |
+0 |
+1 |
+2 |
+3 |
+4 |
+5 | RUN |
+6 | RUN |
+7 | RUN |
+8 | RUN | READY |
+9 | RUN | READY |
+10 | READY | RUN |
+11 | READY | RUN | READY |
+12 | READY | RUN | READY |
+13 | RUN | READY | READY |
+14 | RUN | READY | READY | READY |
+15 | RUN | READY | READY | READY |
+16 | READY | READY | RUN | READY |
+17 | READY | READY | RUN | READY |
+18 | READY | READY | RUN | READY | READY |
+19 | READY | RUN | READY | READY | READY |
+20 | READY | RUN | READY | READY | READY |
+21 | READY | RUN | READY | READY | READY |
+22 | READY | READY | READY | RUN | READY |
+23 | READY | READY | READY | RUN | READY |
+24 | READY | READY | READY | RUN | READY |
+25 | RUN | READY | READY | READY | READY |
+26 | RUN | READY | READY | READY | READY |
+27 | RUN | READY | READY | READY | READY |
+28 | READY | READY | READY | READY | RUN |
+29 | READY | READY | READY | READY | RUN |
+30 | READY | READY | READY | READY | RUN |
+31 | READY | READY | RUN | READY | READY |
+32 | READY | READY | RUN | READY | READY |
+33 | READY | READY | RUN | READY | READY |
+34 | READY | RUN | READY | READY | READY |
+35 | READY | RUN | READY | READY | READY |
+36 | READY | RUN | READY | READY | READY |
+37 | READY | READY | READY | RUN | READY |
+38 | READY | READY | READY | RUN | READY |
+39 | READY | READY | READY | RUN | READY |
+40 | RUN | READY | READY | READY | READY |
+41 | RUN | READY | READY | READY | READY |
+42 | RUN | READY | READY | READY | READY |
+43 | READY | READY | READY | READY | RUN |
+44 | READY | READY | READY | READY | RUN |
+45 | READY | READY | READY | READY | RUN |
+46 | READY | READY | RUN | READY | READY |
+47 | READY | READY | RUN | READY | READY |
+48 | READY | READY | RUN | READY | READY |
+49 | READY | RUN | READY | READY | READY |
+50 | READY | RUN | READY | READY | READY |
+51 | READY | RUN | READY | READY | READY |
+52 | READY | READY | READY | RUN | READY |
+53 | READY | READY | READY | RUN | READY |
+54 | READY | READY | READY | RUN | READY |
+55 | RUN | READY | READY | READY | READY |
+56 | RUN | READY | READY | READY | READY |
+57 | RUN | READY | READY | READY | READY |
+58 | READY | READY | READY | READY | RUN |
+59 | READY | READY | READY | READY | RUN |
+60 | READY | READY | READY | READY | RUN |
+61 | READY | READY | RUN | READY | READY |
+62 | READY | READY | RUN | READY | READY |
+63 | READY | READY | RUN | READY | READY |
+64 | READY | RUN | READY | READY | READY |
+65 | READY | RUN | READY | READY | READY |
+66 | READY | RUN | READY | READY | READY |
+67 | READY | READY | READY | RUN | READY |
+68 | READY | READY | READY | RUN | READY |
+69 | READY | READY | READY | RUN | READY |
+70 | RUN | READY | READY | READY | READY |
+71 | RUN | READY | READY | READY | READY |
+72 | RUN | READY | READY | READY | READY |
+73 | READY | READY | READY | READY | RUN |
+74 | READY | READY | READY | READY | RUN |
+75 | READY | READY | READY | READY | RUN |
+76 | READY | READY | RUN | READY | READY |
+77 | READY | READY | RUN | READY | READY |
+78 | READY | READY | RUN | READY | READY |
+79 | READY | RUN | READY | READY | READY |
+80 | READY | RUN | READY | READY | READY |
+81 | READY | RUN | READY | READY | READY |
+82 | READY | READY | READY | RUN | READY |
+83 | READY | READY | READY | RUN | READY |
+84 | READY | READY | READY | RUN | READY |
+85 | RUN | READY | READY | READY | READY |
+86 | RUN | READY | READY | READY | READY |
+87 | RUN | READY | READY | READY | READY | READY |
+0 |
+1 |
+2 |
+3 |
+4 |
+5 |
+6 | RUN |
+7 | RUN |
+8 | READY | RUN |
+9 | READY | RUN |
+10 | READY | RUN | READY |
+11 | RUN | READY | READY |
+12 | RUN | READY | READY |
+13 | RUN | READY | READY | READY |
+14 | READY | READY | RUN | READY |
+15 | READY | READY | RUN | READY |
+16 | READY | READY | RUN | READY |
+17 | READY | RUN | READY | READY |
+18 | READY | RUN | READY | READY |
+19 | READY | RUN | READY | READY |
+20 | READY | READY | READY | RUN |
+21 | READY | READY | READY | RUN |
+22 | READY | READY | READY | RUN |
+23 | RUN | READY | READY | READY |
+24 | RUN | READY | READY | READY |
+25 | RUN | READY | READY | READY |
+26 | READY | READY | RUN | READY |
+27 | READY | READY | RUN | READY |
+28 | READY | READY | RUN | READY |
+29 | READY | RUN | READY | READY |
+30 | READY | RUN | READY | READY |
+31 | READY | RUN | READY | READY |
+32 | READY | READY | READY | RUN |
+33 | READY | READY | READY | RUN |
+34 | READY | READY | READY | RUN |
+35 | RUN | READY | READY | READY |
+36 | RUN | READY | READY | READY |
+37 | RUN | READY | READY | READY |
+38 | READY | READY | RUN | READY |
+39 | READY | READY | RUN | READY |
+40 | READY | READY | RUN | READY |
+41 | READY | RUN | READY | READY |
+42 | READY | RUN | READY | READY |
+43 | READY | RUN | READY | READY |
+44 | READY | READY | READY | RUN |
+45 | READY | READY | READY | RUN |
+46 | READY | READY | READY | RUN |
+47 | RUN | READY | READY | READY |
+48 | RUN | READY | READY | READY |
+49 | RUN | READY | READY | READY |
+50 | READY | READY | RUN | READY |
+51 | READY | READY | RUN | READY |
+52 | READY | READY | RUN | READY |
+53 | READY | RUN | READY | READY |
+54 | READY | RUN | READY | READY |
+55 | READY | RUN | READY | READY |
+56 | READY | READY | READY | RUN |
+57 | READY | READY | READY | RUN |
+58 | READY | READY | READY | RUN |
+59 | RUN | READY | READY | READY |
+60 | RUN | READY | READY | READY |
+61 | RUN | READY | READY | READY |
+62 | READY | READY | RUN | READY |
+63 | READY | READY | RUN | READY |
+64 | READY | READY | RUN | READY |
+65 | READY | RUN | READY | READY |
+66 | READY | RUN | READY | READY |
+67 | READY | RUN | READY | READY |
+68 | READY | READY | READY | RUN |
+69 | READY | READY | READY | RUN |
+70 | READY | READY | READY | RUN |
+71 | RUN | READY | READY | READY |
+72 | RUN | READY | READY | READY |
+73 | RUN | READY | READY | READY |
+74 | READY | READY | RUN | READY |
+75 | READY | READY | RUN | READY |
+76 | READY | READY | RUN | READY |
+77 | READY | RUN | READY | READY |
+78 | READY | RUN | READY | READY |
+79 | READY | RUN | READY | READY |
+80 | READY | READY | READY | RUN |
+81 | READY | READY | READY | RUN |
+82 | READY | READY | READY | RUN |
+83 | RUN | READY | READY | READY |
+84 | RUN | READY | READY | READY |
+85 | RUN | READY | READY | READY | READY |
+86 | READY | READY | RUN | READY | READY |
+87 | READY | READY | RUN | READY | READY |
+88 | READY | READY | RUN | READY | READY |
+89 | READY | RUN | READY | READY | READY |
+90 | READY | RUN | READY | READY | READY |
+91 | READY | BLOCKED | READY | RUN | READY |
+92 | READY | BLOCKED | READY | RUN | READY |
+93 | READY | BLOCKED | READY | RUN | READY |
+94 | READY | READY | READY | READY | RUN |
+95 | READY | READY | READY | READY | RUN |
+96 | READY | READY | READY | READY | RUN |
+97 | RUN | READY | READY | READY | READY |
+98 | RUN | READY | READY | READY | READY |
+99 | RUN | READY | READY | READY | READY |
+100 | READY | READY | RUN | READY | READY |
+101 | READY | READY | RUN | READY | READY |
+102 | READY | READY | RUN | READY | READY | READY |
+0 |
+1 |
+2 |
+3 |
+4 | RUN |
+5 | RUN |
+6 | READY | RUN |
+7 | READY | RUN |
+8 | READY | RUN |
+9 | RUN | READY | READY |
+10 | RUN | READY | READY |
+11 | RUN | READY | READY | READY |
+12 | READY | READY | RUN | READY |
+13 | READY | READY | RUN | READY |
+14 | READY | READY | RUN | READY |
+15 | READY | RUN | READY | READY |
+16 | READY | RUN | READY | READY |
+17 | READY | RUN | READY | READY |
+18 | READY | READY | READY | RUN |
+19 | READY | READY | READY | RUN |
+20 | READY | READY | READY | RUN |
+21 | RUN | READY | READY | READY |
+22 | RUN | READY | READY | READY |
+23 | RUN | READY | READY | READY |
+24 | READY | READY | RUN | READY |
+25 | READY | READY | RUN | READY |
+26 | READY | READY | RUN | READY |
+27 | READY | RUN | READY | READY |
+28 | READY | RUN | READY | READY |
+29 | READY | RUN | READY | READY |
+30 | READY | READY | READY | RUN |
+31 | READY | READY | READY | RUN |
+32 | READY | READY | READY | RUN |
+33 | RUN | READY | READY | READY |
+34 | RUN | READY | READY | READY |
+35 | RUN | READY | READY | READY |
+36 | READY | READY | RUN | READY |
+37 | READY | READY | RUN | READY |
+38 | READY | READY | RUN | READY |
+39 | READY | RUN | READY | READY |
+40 | READY | RUN | READY | READY |
+41 | READY | RUN | READY | READY |
+42 | READY | READY | READY | RUN |
+43 | READY | READY | READY | RUN |
+44 | READY | READY | READY | RUN |
+45 | RUN | READY | READY | READY |
+46 | RUN | READY | READY | READY |
+47 | RUN | READY | READY | READY |
+48 | READY | READY | RUN | READY |
+49 | READY | READY | RUN | READY |
+50 | READY | READY | RUN | READY |
+51 | READY | RUN | READY | READY |
+52 | READY | RUN | READY | READY |
+53 | READY | RUN | READY | READY |
+54 | READY | READY | READY | RUN |
+55 | READY | READY | READY | RUN |
+56 | READY | READY | READY | RUN |
+57 | RUN | READY | READY | READY |
+58 | RUN | READY | READY | READY |
+59 | RUN | READY | READY | READY |
+60 | READY | READY | RUN | READY |
+61 | READY | READY | RUN | READY |
+62 | READY | READY | RUN | READY |
+63 | READY | RUN | READY | READY |
+64 | READY | RUN | READY | READY |
+65 | READY | RUN | READY | READY |
+66 | READY | READY | READY | RUN |
+67 | READY | READY | READY | RUN |
+68 | READY | READY | READY | RUN |
+69 | RUN | READY | READY | READY |
+70 | RUN | READY | READY | READY |
+71 | RUN | READY | READY | READY |
+72 | READY | READY | RUN | READY |
+73 | READY | READY | RUN | READY |
+74 | READY | READY | RUN | READY |
+75 | READY | RUN | READY | READY |
+76 | READY | RUN | READY | READY |
+77 | READY | RUN | READY | READY |
+78 | READY | READY | READY | RUN |
+79 | READY | READY | READY | RUN |
+80 | READY | READY | READY | RUN |
+81 | RUN | READY | READY | READY |
+82 | RUN | READY | READY | READY |
+83 | RUN | READY | READY | READY | READY |
+84 | READY | READY | RUN | READY | READY |
+85 | READY | READY | RUN | READY | READY |
+86 | READY | READY | RUN | READY | READY |
+87 | READY | RUN | READY | READY | READY |
+88 | READY | RUN | READY | READY | READY |
+89 | READY | BLOCKED | READY | RUN | READY |
+90 | READY | BLOCKED | READY | RUN | READY |
+91 | READY | BLOCKED | READY | RUN | READY |
+92 | READY | READY | READY | READY | RUN |
+93 | READY | READY | READY | READY | RUN |
+94 | READY | READY | READY | READY | RUN |
+95 | RUN | READY | READY | READY | READY |
+96 | RUN | READY | READY | READY | READY |
+97 | RUN | READY | READY | READY | READY |
+98 | READY | READY | RUN | READY | READY |
+99 | READY | READY | RUN | READY | READY |
+100 | READY | READY | RUN | READY | READY | READY |
