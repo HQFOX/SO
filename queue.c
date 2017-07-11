@@ -7,9 +7,9 @@ typedef struct Programa
 {
 	int id;
 	int PC;
-	char* instructions;
 	int size;	//temporario para fazer o print
 	int jump_counter;
+	int instrucoes_mem_pointer;
 	
 }Programa;
 
@@ -125,10 +125,10 @@ Programa * new_programa(int id)
 {
 
 	Programa *p = malloc(sizeof(p));
-	p -> instructions = malloc(100 *sizeof(char));
 	p -> id = id;
 	p -> PC = 0;
 	p -> jump_counter = 0;
+	p -> instrucoes_mem_pointer = 0;
 	return p;
 }
 
@@ -140,7 +140,7 @@ void print_programa(Programa *p)
 	int i = 0;
 	while( i< p -> size )
 	{
-		printf("%c ", p -> instructions[i]);
+		//~ printf("%c ", p -> instructions[i]);
 		i++;
 	}
 }

@@ -6,18 +6,21 @@
 #include <sys/types.h>
 #include "queue.c"
 
-
+#define MEMSIZE 50
 
 // Variaveis Globais Configuraveis
 
 int max_process_number = 6;
 int quantum = 3;
 int max_ready = 4;
+int flag = 1;
 
+char MEM[MEMSIZE];
 int tempo;
 int program_number;
 int run_counter;
 int blocked_counter;
+int occupied;
 
 Queue *NEW;
 Queue *READY;
@@ -31,6 +34,8 @@ pthread_t thread_id;
 void running(Node *n);
 Programa *read_program(char *s,Programa *p);
 void enter_new(Programa* p);
+int best_fit(int tamanho);
+int worst_fit(int tamanho);
 void * ask_input (void * arg);
 void release(Node* n);
 void output();
@@ -60,8 +65,14 @@ void le_ficheiro(char* nome)	//retorna 1 se tudo correr bem, 0 caso contrario
 			
 		}
 		Programa *p = new_programa(program_number);
-		print_programa(read_program(programa,p));
-		enter_new(p);
+		if( read_program(programa,p) != NULL)
+		{
+			enter_new(p);
+		}
+		else
+		{
+			program_number--;
+		}
 	}
 
 	printf("programa: %s", programa);
@@ -100,32 +111,123 @@ Programa *read_program(char *s,Programa *p)	//mete as instrucoes no programa sem
 	int i = 0;
 	int j = 0;
 	
+	char buffer[100];
+	
 	while(s[i] != '\0')
 	{
-		if(s[i] != ' ')
-		{	
-			p -> instructions[j] = s[i];
-			j++;
-		}
-		i++;
+		if(s[i] != ' ' )
+			if(s[i] >= '0' && s[i] <= '4')
+			{	
+				buffer[j] = s[i];
+				j++;
+			}
+			i++;
 	}
 	p -> size = j;
-	return p;
+	if (occupied + p -> size <= MEMSIZE)	//ve se a memoria está cheia
+	{
+		occupied = occupied + p -> size;
+		if(flag == 1)
+			i = best_fit(j);
+		else
+			i = worst_fit(j);
+		j = 0;
+		p -> instrucoes_mem_pointer = i;
+		//~ printf("  pointer %d ", p -> instrucoes_mem_pointer);
+		while(j< p -> size)
+		{
+			MEM[i] = buffer[j];
+			i++;
+			j++;
+		}
+		return p;
+	}
+	else
+	{
+		printf("\n Memória está cheia – impossível criar processo\n");
+	}
+	return NULL;
 }
 void enter_new(Programa* p)
 {
 	if(NEW -> sizeQueue < NEW -> limit)
 	{
-		//~ strcpy(p -> estado,"NEW");
-		Node *n = new_node(p);
-		enqueue(NEW,n);
+			Node *n = new_node(p);
+			enqueue(NEW,n);
 	}
 }
 
 /*	------------------ */
 
+int best_fit(int tamanho) //devolve o indice onde deve ser colocado no MEM mas a "partir do fim" 
+{
+	int i = 0; ;	//contador para percorrer o array MEM
+	int j = 0;		//contador para contar os espaços vazios seguidos
+	int menor = 50; //guardar o menor numero de espaços seguidos onde cabe as instruçoes 
+	int indice = 0;		//guarda o indice 
+	
+	while(i<MEMSIZE)
+	{
+		if(MEM[i] == 'x')
+		{
+			j++;
+		}
+		else
+		{
+			if( j <= menor)
+			{	//verifica se o numero de espaços vazios seguidos é menor que o anteriormente guardado
+				if (j >= tamanho)
+				{	// verifica se este contem espaço para as instruções
+					menor = j;
+					indice = (i - tamanho);
+				}
+			}
+			j = 0;
+		}
+		i++;
+	}
+	if( i - j < menor)
+	{
+		indice = i - j;
+	}
+	return indice;
+}
 
+int worst_fit(int tamanho)
+{
+	int i = 0; ;	//contador para percorrer o array MEM
+	int j = 0;		//contador para contar os espaços vazios seguidos
+	int maior = 0; //guardar o maior numero de espaços seguidos onde cabe as instruçoes 
+	int indice = 0;		//guarda o indice 
+	
+	while(i<MEMSIZE)
+	{
+		if(MEM[i] == 'x')
+		{
+			j++;
+		}
+		else
+		{
+			if( j >= maior)
+			{	//verifica se o numero de espaços vazios seguidos é menor que o anteriormente guardado
+				if (j >= tamanho)
+				{	// verifica se este contem espaço para as instruções
+					maior = j;
+					indice = (i - tamanho);
+				}
+			}
+			j = 0;
+		}
+		i++;
+	}
+	if( i - j > maior)
+	{
+		indice = i - j;
+	}
+	return indice;
+}
 
+/*	------------------ */
 void enter_ready(Node* n)
 {
 	if(READY -> sizeQueue < READY -> limit)
@@ -138,7 +240,6 @@ void enter_blocked(Node* n)
 {
 	if(BLOCKED -> sizeQueue < BLOCKED -> limit)
 	{
-		puts("blocked");
 		enqueue(BLOCKED,n);
 	}
 }
@@ -182,23 +283,34 @@ void event_occurs()
 void release(Node* n)
 {
 	enqueue(EXIT,n);
+	
+	int i = n -> element -> instrucoes_mem_pointer;
+	int j = 0;
+	
+	while(j < n -> element -> size)
+	{
+		MEM[i] = 'x';
+		j++;
+		i++;
+	}
+	occupied = occupied - n -> element ->size;
 }
 
 void run()	//funcao do estado RUN
 {
 	if(RUN -> head != NULL)
 	{
-		if(RUN -> head -> element -> instructions[RUN -> head -> element -> PC] == '1')
+		if(MEM[ (RUN -> head -> element -> instrucoes_mem_pointer + RUN -> head -> element -> PC) ] == '1')
 		{
 			RUN -> head -> element -> PC++;
 		}
-		else if (RUN -> head -> element -> instructions[RUN -> head -> element -> PC] == '2')
+		else if(MEM[ (RUN -> head -> element -> instrucoes_mem_pointer + RUN -> head -> element -> PC) ] == '2')
 		{
 			RUN -> head -> element -> PC++;
 			event_wait();
 			
 		}
-		else if (RUN -> head -> element -> instructions[RUN -> head -> element -> PC] == '3')
+		else if(MEM[ (RUN -> head -> element -> instrucoes_mem_pointer + RUN -> head -> element -> PC) ] == '3')
 		{
 			if(RUN -> head -> element -> jump_counter < 10)
 			{
@@ -207,16 +319,16 @@ void run()	//funcao do estado RUN
 			}
 			else
 			{
-				RUN -> head -> element -> instructions[RUN -> head -> element -> PC] = '1';
+				MEM[ (RUN -> head -> element -> instrucoes_mem_pointer + RUN -> head -> element -> PC) ] = '1';
 				RUN -> head -> element -> PC++;
 			}
 		}
-		else if (RUN -> head -> element -> instructions[RUN -> head -> element -> PC] == '4')
+		else if(MEM[ (RUN -> head -> element -> instrucoes_mem_pointer + RUN -> head -> element -> PC) ] == '4')
 		{
 			inst_fork();
 			 //o pc é incrementado no int_fork
 		}
-		else if (RUN -> head -> element -> instructions[RUN -> head -> element -> PC] == '0')
+		else if(MEM[ (RUN -> head -> element -> instrucoes_mem_pointer + RUN -> head -> element -> PC) ] == '0')
 		{
 			release(dequeue(RUN));
 			run_counter = 0;
@@ -247,14 +359,15 @@ void blocked()	//funcao do estado do blocked
 }
 
 void output(){
-	int outputS[program_number-1]; //Array de int lol de tamanho fixo com o estado dos programas
+	
+	
+	int outputS[program_number]; //Array de int lol de tamanho fixo com o estado dos programas
 	
 	if(NEW -> head != NULL)
 	{
 		Node *current = NEW -> head;
 		while(current != NULL)
 		{
-			//~ strcpy(outputS[((current -> element -> id)-1)],current -> element -> estado);
 			outputS[((current -> element -> id)-1)] = 0;
 			current = current -> next;
 		}
@@ -264,7 +377,6 @@ void output(){
 		Node *current = READY -> head;
 		while(current != NULL)
 		{
-			//~ strcpy(outputS[((current -> element -> id)-1)],current -> element -> estado);
 			outputS[((current -> element -> id)-1)] = 1;
 			current = current -> next;
 		}
@@ -296,7 +408,6 @@ void output(){
 			current = current -> next;
 		}
 	}
-	//~ puts("cona");
 	//~ printf("\n%d | ",program_number);
 	//~ printf("tempo %d | ",tempo);
 	//~ if(program_number != 0)
@@ -334,6 +445,13 @@ void escreve_ficheiro(int* scheduler){
 			fprintf(ficheiro, " EXIT |");
 		}
 	}
+	fprintf(ficheiro,"\n MEM |");
+	int i = 0;
+	while(i < MEMSIZE)
+	{
+		fprintf(ficheiro, "%c", MEM[i]);
+		i++;
+	}
 
 	fclose(ficheiro);
 }
@@ -341,19 +459,52 @@ void escreve_ficheiro(int* scheduler){
 void inst_fork()
 {
 	RUN -> head -> element -> PC++;
-	Node *n;
-	program_number++;
-	Programa *p = new_programa(program_number);
-	strcpy(p -> instructions,RUN -> head -> element -> instructions);
-	//~ p -> instructions = RUN -> head -> element -> instructions;		//TESTAR , PODE TER BUG COM O GOTOBEGIN
-	p -> PC = 	RUN -> head -> element -> PC;
-	n = new_node(p); 
-	n -> next = NULL;
-	enter_ready(n);
+	if(occupied + (RUN -> head -> element ->size) <= 50)
+	{
+		Node *n;
+		program_number++;
+		occupied = occupied + RUN -> head -> element ->size;
+		Programa *p = new_programa(program_number);
+		p -> PC = 	RUN -> head -> element -> PC;
+		p -> size = RUN -> head -> element -> size;
+		
+		//passa para o array MEM
+		int i = 0;
+		if(flag == 1)
+			i = best_fit(RUN -> head -> element ->size);
+		else
+			i = worst_fit(RUN -> head -> element ->size);
+		int j = RUN -> head -> element -> instrucoes_mem_pointer;
+		p -> instrucoes_mem_pointer = i;
+		int l = 0;
+		while(l< p -> size)
+		{
+			MEM[i] = MEM[j];
+			i++;
+			j++;
+			l++;
+		}
+		// ----------
+		
+		n = new_node(p); 
+		n -> next = NULL;
+		enter_ready(n);
+	}
+	else
+	{
+		printf("\n Memória está cheia – impossível criar processo\n");
+	}
+	
 }
 
 int main(void)
 {
+	
+	for(int i = 0; i <MEMSIZE ; i++)	//inicializa o array MEM com xxxxx
+	{
+		MEM[i] = 'x';
+	}
+	
 	// Pedido da Settings Configuraveis
 
 	int input_prov;
@@ -380,6 +531,13 @@ int main(void)
 	{
 		max_ready = input_prov;
 	}
+	
+	puts ("Best fit -1  Worst fit -2  (0 - default): ");
+	scanf("%d", &input_prov);
+	if (input_prov != 0)
+	{
+		flag = input_prov;
+	}
 
 	tempo = 0;
 	program_number = 0;
@@ -398,6 +556,7 @@ int main(void)
 	
 	while (program_number < max_process_number)
 	{
+		//~ output();
 		admit();	//adiciona se o tamanho de READY for < 4 
 		dispatch();	//adiciona ao estado RUN se este tiver vazio  
 		run();
@@ -405,14 +564,9 @@ int main(void)
 		blocked();
 		dispatch();
 		output();
-		sleep(0.5);
+		sleep(1);
 		tempo++;
 
 	}
-	
-	//~ pthread_kill
-	//~ output();
 	return 0;
 }
-
-//testar o gotobegin
